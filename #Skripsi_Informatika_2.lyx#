@@ -3846,11 +3846,2518 @@ None Start Event used to mark the start of a process without any triggers
  or conditions defined to start a process 
 \end_layout
 
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/1.PNG
+	scale 90
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+none start event notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Itemize
+Message Start Event used to start a process with a trigger that is a message
+ received.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/2.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Message Start Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Timer Start Event describe the process will begin at a certain time or on
+ a specified date.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/3.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Timer Start Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Conditional Start Event describes a situation where a process can be started
+ when the specified business conditions are true.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/4.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Conditional Start Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Signal Start Event describe the process will begin when capturing signals
+ coming from other processes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/5.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Signal Start Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Multiple Start Event describe the process will begin when capturing more
+ than one trigger.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/6.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Multiple Start Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+- Intermediate Event Simbol
+\series default
+\emph default
+ 
+\emph on
+Intermediate
+\emph default
+ is located between the Start Event and End Event.
+ This symbol will affect the flow of the process, but will not start or
+ directly stop the process.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+None Intermediate Event
+\emph default
+ indicates that something that happened or could occur in the process.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/7.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+None Intermediate Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Message Intermediate Event
+\emph default
+ dused to send messages or receive messages to other participants in different
+ pools.
+ This type of event can be used in sequential process streams or it can
+ also be attached to the 
+\emph on
+(boundary)
+\emph default
+ line of a Task to show 
+\emph on
+(exception flow)
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/8.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Message Intermediate Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Timer Intermediate Event
+\emph default
+ shows the waiting time in a process.
+ The process will run when the time conditions are met.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/9.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Timer Intermediate Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Conditional Intermediate Event
+\emph default
+ Event used when the process flow needs to wait for the conditions to be
+ met first.
+ The process can begin when the conditions specified are true.
+ Conditional Intermediate Events can be used in sequential process flow
+ indicating that the process flow must wait until business conditions are
+ met or it can also be attached to a boundary in a Task that shows an exception
+ flow which will be activated when conditions fulfilled.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/10.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Conditional Intermediate Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Signal Intermediate Event
+\emph default
+ used to send or receive signals.
+ If the Signal Intermediate Event is represented in the sequential flow
+ of a process, it can be used to send or receive signals.
+ But if the Signal Intermediate Event is described as being attached to
+ the boundary limit of a Task, it can only be used to receive signals and
+ show the exception flow that will be activated when the signal is received.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/11.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Signal Intermediate Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Cancel Intermediate Event
+\emph default
+ used in subprocess transactions.
+ This event is always described as attached to the boundary (bo-undary)
+ of transactional subprocesses and shows al-ternative flows that can be
+ carried out when subprocess transactions are canceled.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/12.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Cancel Intermediate Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Error Intermediate Event
+\emph default
+ used to catch errors and to deal with those errors.
+ This event can only be attached to the boundary of a Task.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/13.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Error Intermediate Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+- End Event
+\emph default
+ 
+\series default
+indicated as a symbol to end a process.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\emph on
+None End Event 
+\emph default
+indicates that the route from the process has reached the end.
+ The process can only be completed when all flow routes arrive at the None
+ End Event.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/14.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+None End Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Message End Event
+\emph default
+ indicates that the message was sent to another process when the process
+ flow reached this Message End Even.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/15.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Message End Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Signal End Event
+\emph default
+ indicates that the signal will be generated when the process flow reaches
+ the Signal End Event.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/16.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Signal End Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Terminate End Event
+\emph default
+ used to end the whole process.
+ When one of the process flow routes arrives at the end of the Terminate
+ End Event, the process is completely finished.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/17.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Terminate End Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Cancel End Event
+\emph default
+ used in sub-transaction processes and indicates that the transaction must
+ be canceled.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/18.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Cancel End Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Error End Event
+\emph default
+ indicates that an error was generated when the process ended.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/19.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Error End Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Multiple End Event
+\emph default
+ describe processes that begin with more than one trigger ending.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/20.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Multiple End Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
 \end_deeper
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+Activity 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Activity states a job or task performed in a business process in an organization.
+ Activity can be either atomic (the lowest level that can be displayed in
+ a diagram) or compound (can be traced to more detail).
+ Examples of Activity types that are atomic are Task.
+ An example of a compound Activity type is the Sub-Process.
+ The difference between notation between a Task and Sub-Process is that
+ the Sub-Process has a plus sign that is placed in the bottom center of
+ the rectangle.
+ This plus sign provides an explanation that a Sub-Process can be opened
+ and will feature a more detailed part (Yudhanto, 2019).
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi activity.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Activity
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+\lang bahasa
+Task
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+\lang bahasa
+Task 
+\emph default
+merupakan unit terkecil dari Activity yang terdapat di proses bisnis.
+ 
+\emph on
+Task
+\emph default
+ digunakan pada saat terdapat pekerjaan atau tugas di proses bisnis yang
+ tidak dapat dipecah lagi menjadi unit yang lebih kecil.
+ Terdapat beberapa tipe 
+\emph on
+Task
+\emph default
+ yang disediakan di BPMN 2.0, antara lain:
+\end_layout
+
+\end_deeper
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- None Task
+\series default
+\emph default
+: Sebuah 
+\emph on
+Task
+\emph default
+ yang bersifat umum atau tidak mempunyai definisi, biasanya sering digunakan
+ ketika pengembangan proses di fase awal.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi none task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+None Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Manual Task
+\series default
+\emph default
+: Sebuah Task yang dikerjakan secara manual tanpa melibatkan mekanisme otomasi
+ di 
+\emph on
+workflow
+\emph default
+ atau BPMN 
+\emph on
+Engine
+\emph default
+.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+Task tipe ini biasanya melibatkan peranan manusia.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi manual task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Manual Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Receive Task
+\emph default
+:
+\series default
+ Menunggu sebuah 
+\emph on
+message
+\emph default
+ yang datang dari partisipan eksternal.
+ Ketika 
+\emph on
+message
+\emph default
+ datang, maka status 
+\emph on
+Task
+\emph default
+ menjadi selesai.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi receive task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Receive Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Script Task
+\series default
+\emph default
+: Menjalankan 
+\emph on
+script 
+\emph default
+yang telah didefiniskan sebelumnya.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi script task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Script Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Send Task
+\series default
+\emph default
+: Mengirimkan sebuah 
+\emph on
+message
+\emph default
+ kepada partisipan eksternal.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi send task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Send Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Service Task
+\series default
+\emph default
+: Menghubungkan ke beberapa layanan yang tersedia, biasanya bisa berupa
+ sebuah 
+\emph on
+web service 
+\emph default
+atau aplikasi lainnya.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi service task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Service Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Business Rule Task
+\series default
+\emph default
+: Menyediakan mekanisme masukan untuk diproses oleh 
+\emph on
+Business Rule Engine
+\emph default
+ dan mengambil hasil dari proses tersebut.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi business rule task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Business Rule Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- User Task
+\series default
+\emph default
+: Melakukan pekerjaan yang melibatkan manusia terutama terkait dengan dokumen
+ atau 
+\emph on
+form
+\emph default
+.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi user task.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+User Task
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+\lang bahasa
+Sub-Process 
+\series default
+\emph default
+mewakili 
+\emph on
+Acitivity
+\emph default
+ bertipe 
+\emph on
+compound
+\emph default
+ atau gabungan.
+ Maksud dari 
+\emph on
+compound
+\emph default
+ adalah elemen 
+\emph on
+Sub-Process
+\emph default
+ masih dapat dipecah- pecah lagi menjadi bagian yang lebih rinci.
+ Terdapat dua cara untuk menggambarkan notasi diagram 
+\emph on
+Sub-Process
+\emph default
+ ini, yaitu:
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Collapsed
+\series default
+\emph default
+.
+ Penggambaran notasi 
+\emph on
+Sub-Process
+\emph default
+ seperti sebuah 
+\emph on
+Task
+\emph default
+ (persegi panjang berujung tumpul) dengan penambahan sebuah tanda plus di
+ bagian tengah sisi bawah.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi collapsed sub-process.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Collapsed Sub-Process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Expanded
+\series default
+\emph default
+.
+ Detail isi 
+\emph on
+Sub-Proces
+\emph default
+s dibuka sehingga elemen-elemen yang terdapat di dalamnya dapat diketahui
+ semuanya.
+ Pada penggambaran jenis ini, tanda plus di bagian tengah sisi bawah dihilangkan.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi expanded sub-process.PNG
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Expanded Sub-Process
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+\lang bahasa
+Gateway
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+\lang bahasa
+Gateway
+\emph default
+ merupakan salah satu elemen BPMN yang digunakan untuk mengatur bagaimana
+ aliran proses berlangsung, baik divergen atau pun konvergen.
+ Jika tidak ada aliran proses yang ingin dikendalikan, maka penggunaan 
+\emph on
+Gateway
+\emph default
+ tidak diperlukan.
+\end_layout
+
+\end_deeper
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Exclusive Gateway
+\series default
+\emph default
+ digunakan untuk memilih salah satu kondisi yang benar sesuai dengan syarat-syar
+at yang ditetapkan.
+
+\emph on
+ Exclusive Gateway
+\emph default
+ ini bersifat menyebar atau bercabang.
+ Secara sederhana, perilaku 
+\emph on
+Exclusive Gateway
+\emph default
+ ini hampir sama dengan 
+\emph on
+Decision
+\emph default
+ pada 
+\emph on
+flowchar
+\emph default
+t yang bisa mempunyai banyak pilihan, bukan hanya dua pilihan.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi exclusive gateway.PNG
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Exclusive Gateway
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Event-Based Gateway
+\series default
+\emph default
+ digunakan untuk memecah aliran proses yang perilakunya hampir sama dengan
+ 
+\emph on
+Inclusive Gateway
+\emph default
+, perbedannya adalah tujuan aliran proses dari percabangan 
+\emph on
+Event-Based Gateway 
+\emph default
+ini berdasarkan pada 
+\emph on
+Event
+\emph default
+, bukan kondisi ekspresi data.
+ 
+\emph on
+Gateway
+\emph default
+ ini dapat mengontrol satu atau beberapa 
+\emph on
+Event.
+
+\emph default
+ 
+\emph on
+Intermediate Event
+\emph default
+ yang valid pada
+\emph on
+ Event-Based Gateway
+\emph default
+ yaitu 
+\emph on
+Message, Timer, Conditional, Signal.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi event-based gateway.PNG
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Event-Based Gateway
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Parallel Event-Based Gateway
+\series default
+\emph default
+.
+\emph on
+Gateway
+\emph default
+ ini mirip dengan gateway paralel.
+ Hal ini memungkinkan beberapa proses terjadi pada saat bersamaan, namun
+ tidak seperti 
+\emph on
+gateway parallel
+\emph default
+, proses bergantung pada peristiwa.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi parallel event based gateway.PNG
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Parallel Event-Based Gateway
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Inclusive Gateway 
+\series default
+\emph default
+bersifat divergen digunakan untuk memilih kondisi yang benar sesuai syarat-syara
+t yang ditetapkan, perbedaan dengan 
+\emph on
+Exclusive Gateway
+\emph default
+ adalah dalam 
+\emph on
+Inclusive Gateway
+\emph default
+ kondisi yang dipilih bisa lebih dari satu kondisi.
+ Secara sederhana, perilaku 
+\emph on
+Inclusive Gateway
+\emph default
+ ini hampir sama dengan 
+\emph on
+decision
+\emph default
+ akan tetapi ada lebih dari satu kemungkinan kondisi atau aliran proses
+ yang dipilih.
+ 
+\emph on
+Inclusive Gateway
+\emph default
+ yang bersifat konvergen digunakan untuk menyatukan atau menggabungkan aliran
+ proses yang berasal dari pecahan aliran proses 
+\emph on
+Inclusive Gateway
+\emph default
+ sebelumnya.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi inclusive gateway.PNG
+	lyxscale 30
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Inclusive Gateway
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+- Complex Gateway
+\series default
+\emph default
+ digunakan untuk mengontrol aliran proses yang tujuan alirannya memiliki
+ kondisi yang kompleks yang mana tidak dapat ditangani oleh tipe 
+\emph on
+gateway
+\emph default
+ yang lainnya.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi complex gateway.PNG
+	lyxscale 35
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Complex Gateway
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\emph on
+\lang bahasa
+Connecting Object 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\lang bahasa
+Connecting object
+\emph default
+ adalah elemen yang menghubungkan
+\emph on
+ Flow object
+\emph default
+.
+ 
+\emph on
+Connecting Object
+\emph default
+ juga memiliki 3 jenis elemen yaitu 
+\emph on
+sequence flow, message flow, dan association
+\emph default
+ (Yudhanto,
+\emph on
+ 
+\emph default
+2019).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+\lang bahasa
+Alur Sequence (Sequence Flow)
+\series default
+\emph default
+ Digunakan untuk menunjukkan urutan yang kegiatan akan yang dilakukan dalam
+ sebuah proses.
+ 
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+- Normal 
+\emph on
+Sequence Flow
+\emph default
+ mengacu pada jalur 
+\emph on
+Sequence Flow
+\emph default
+ yang tidak dimulai dari
+\emph on
+ Intermediate Event 
+\emph default
+yang melekat pada batas (
+\emph on
+boundary
+\emph default
+) dari suatu aktifitas.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi normal sequence flow.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi Normal 
+\emph on
+Sequence Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+-
+\emph on
+ Conditional Sequence Flow Sequence Flow
+\emph default
+ dapat memiliki kondisi yang sudah didefinisikan sebelumnya jika 
+\emph on
+Sequence Flow
+\emph default
+ keluar dari suatu aktifitas.
+ Aktifitas tersebut harus memiliki minimal dua 
+\emph on
+Sequence Flow
+\emph default
+.
+ Kondisi harus bernilai true agar aliran meneruskan 
+\emph on
+Sequence Flow
+\emph default
+.
+ Mini 
+\emph on
+Gateway 
+\emph default
+menunjukkan bahwa 
+\emph on
+Sequence Flow
+\emph default
+ memiliki kondisi yang sudah didefinisikan.
+ Pada
+\emph on
+ Sequence Flow
+\emph default
+ yang keluar minimal ada satu kondisi yang harus dipilih selama proses berjalan.
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi conditional sequence flow sequence.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Conditional Sequence Flow Sequence Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\lang bahasa
+-
+\emph on
+ Default Sequence Flow
+\emph default
+ adalah salah satu aliran yang keluar dari 
+\emph on
+Exclusive Gateway
+\emph default
+ atau 
+\emph on
+Inclusive Gateway
+\emph default
+ yang dapat didefinisikan sebagai 
+\emph on
+Default Sequence Flow
+\emph default
+.
+ Aliran ini akan digunakan hanya jika semua aliran kondisional yang lain
+ bernilai 
+\emph on
+false.
+ 
+\end_layout
+
+\begin_layout Verse
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi default sequence flow.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Default Sequence Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\lang bahasa
+Alur Pesan 
+\emph on
+(Messege Flow
+\series default
+).
+
+\emph default
+ Digunakan untuk menunjukkan aliran pesan antara dua partisipan dalam sebuah
+ Proses.
+ 
+\emph on
+Message Flow
+\emph default
+ dapat terhubung ke batas 
+\emph on
+(boundary
+\emph default
+) 
+\emph on
+Pool
+\emph default
+ atau untuk sebuah objek di dalam 
+\emph on
+Pool
+\emph default
+.
+ 
+\emph on
+Message Flow
+\emph default
+ tidak diperbolehkan sebagai penghubung antar objek dalam satu 
+\emph on
+pool.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi message flow.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Message Flow
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\lang bahasa
+Asosiasi (
+\emph on
+Associati
+\emph default
+on).
+ 
+\series default
+Digunakan untuk mengasosiasikan informasi dan 
+\emph on
+artifacts 
+\emph default
+dengan objek satu sama lain.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\lang bahasa
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang bahasa
+\begin_inset Graphics
+	filename C:/Users/ACER/Downloads/teori bpmn/notasi association.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang bahasa
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang bahasa
+Notasi 
+\emph on
+Association
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_deeper
 \begin_layout Section
 IDEF
