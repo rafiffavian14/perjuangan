@@ -5609,75 +5609,36 @@ Complex Gateway Notation
 \begin_layout Subsection
 
 \emph on
-\lang bahasa
 Connecting Object 
 \end_layout
 
 \begin_layout Standard
-
-\emph on
-\lang bahasa
-Connecting object
-\emph default
- adalah elemen yang menghubungkan
-\emph on
- Flow object
-\emph default
-.
- 
-\emph on
-Connecting Object
-\emph default
- juga memiliki 3 jenis elemen yaitu 
-\emph on
-sequence flow, message flow, dan association
-\emph default
- (Yudhanto,
-\emph on
- 
-\emph default
-2019).
+Connecting objects are elements that connect Flow objects.
+ Connecting Object also has 3 types of elements namely sequence flow, message
+ flow, and association (Yudhanto, 2019).
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 \emph on
-\lang bahasa
 Alur Sequence (Sequence Flow)
 \series default
 \emph default
- Digunakan untuk menunjukkan urutan yang kegiatan akan yang dilakukan dalam
- sebuah proses.
- 
+ Used to indicate the order in which activities will be carried out in a
+ process.
 \end_layout
 
 \begin_layout Quote
-
-\lang bahasa
 - Normal 
 \emph on
 Sequence Flow
 \emph default
- mengacu pada jalur 
-\emph on
-Sequence Flow
-\emph default
- yang tidak dimulai dari
-\emph on
- Intermediate Event 
-\emph default
-yang melekat pada batas (
-\emph on
-boundary
-\emph default
-) dari suatu aktifitas.
- 
+ refers to the Sequence Flow path that does not start from the Intermediate
+ Event attached to the boundary of an activity.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5686,10 +5647,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi normal sequence flow.PNG
+	filename bpmn/37.PNG
 	rotateOrigin center
 
 \end_inset
@@ -5698,16 +5657,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi Normal 
 \emph on
-Sequence Flow
+Normal Sequence Flow Notation
 \end_layout
 
 \end_inset
@@ -5721,46 +5676,19 @@ Sequence Flow
 \end_layout
 
 \begin_layout Quote
-
-\lang bahasa
 -
 \emph on
  Conditional Sequence Flow Sequence Flow
 \emph default
- dapat memiliki kondisi yang sudah didefinisikan sebelumnya jika 
-\emph on
-Sequence Flow
-\emph default
- keluar dari suatu aktifitas.
- Aktifitas tersebut harus memiliki minimal dua 
-\emph on
-Sequence Flow
-\emph default
-.
- Kondisi harus bernilai true agar aliran meneruskan 
-\emph on
-Sequence Flow
-\emph default
-.
- Mini 
-\emph on
-Gateway 
-\emph default
-menunjukkan bahwa 
-\emph on
-Sequence Flow
-\emph default
- memiliki kondisi yang sudah didefinisikan.
- Pada
-\emph on
- Sequence Flow
-\emph default
- yang keluar minimal ada satu kondisi yang harus dipilih selama proses berjalan.
+ can have predefined conditions if Sequence Flow exits an activity.
+ These activities must have at least two Sequence Flow.
+ The condition must be true for the continuous flow of Sequence Flow.
+ Mini Gateway shows that Sequence Flow has defined conditions.
+ In the Sequence Flow that comes out there is at least one condition that
+ must be selected during the process.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5769,10 +5697,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi conditional sequence flow sequence.PNG
+	filename bpmn/38.PNG
 	rotateOrigin center
 
 \end_inset
@@ -5781,16 +5707,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Conditional Sequence Flow Sequence Flow
+Conditional Sequence Flow Sequence Flow Notation
 \end_layout
 
 \end_inset
@@ -5804,35 +5726,16 @@ Conditional Sequence Flow Sequence Flow
 \end_layout
 
 \begin_layout Quote
-
-\lang bahasa
 -
 \emph on
- Default Sequence Flow
+ Default Sequence Flow 
 \emph default
- adalah salah satu aliran yang keluar dari 
-\emph on
-Exclusive Gateway
-\emph default
- atau 
-\emph on
-Inclusive Gateway
-\emph default
- yang dapat didefinisikan sebagai 
-\emph on
-Default Sequence Flow
-\emph default
-.
- Aliran ini akan digunakan hanya jika semua aliran kondisional yang lain
- bernilai 
-\emph on
-false.
- 
+is one of the streams coming out of Exclusive Gateway or Inclusive Gateway
+ which can be defined as Default Sequence Flow.
+ This flow will be used only if all other conditional flows are false.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5841,10 +5744,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi default sequence flow.PNG
+	filename bpmn/39.PNG
 	rotateOrigin center
 
 \end_inset
@@ -5853,16 +5754,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Default Sequence Flow
+Default Sequence Flow Notation
 \end_layout
 
 \end_inset
@@ -5878,7 +5775,6 @@ Default Sequence Flow
 \begin_layout Itemize
 
 \series bold
-\lang bahasa
 Alur Pesan 
 \emph on
 (Messege Flow
@@ -5886,39 +5782,14 @@ Alur Pesan
 ).
 
 \emph default
- Digunakan untuk menunjukkan aliran pesan antara dua partisipan dalam sebuah
- Proses.
- 
-\emph on
-Message Flow
-\emph default
- dapat terhubung ke batas 
-\emph on
-(boundary
-\emph default
-) 
-\emph on
-Pool
-\emph default
- atau untuk sebuah objek di dalam 
-\emph on
-Pool
-\emph default
-.
- 
-\emph on
-Message Flow
-\emph default
- tidak diperbolehkan sebagai penghubung antar objek dalam satu 
-\emph on
-pool.
- 
+ Used to show the flow of messages between two participants in a Process.
+ Message Flow can be connected to a Pool boundary or to an object in the
+ Pool.
+ Message Flow is not allowed as a liaison between objects in one pool.
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5927,10 +5798,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi message flow.PNG
+	filename bpmn/40.PNG
 	rotateOrigin center
 
 \end_inset
@@ -5939,16 +5808,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Message Flow
+Message Flow Notation
 \end_layout
 
 \end_inset
@@ -5965,7 +5830,6 @@ Message Flow
 \begin_layout Itemize
 
 \series bold
-\lang bahasa
 Asosiasi (
 \emph on
 Associati
@@ -5973,17 +5837,11 @@ Associati
 on).
  
 \series default
-Digunakan untuk mengasosiasikan informasi dan 
-\emph on
-artifacts 
-\emph default
-dengan objek satu sama lain.
+Used to associate information and artifacts with objects with each other.
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5992,10 +5850,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi association.PNG
+	filename bpmn/41.PNG
 	rotateOrigin center
 
 \end_inset
@@ -6004,16 +5860,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Association
+Association Notation
 \end_layout
 
 \end_inset
@@ -6027,6 +5879,312 @@ Association
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+
+\emph on
+Swimlanes
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Swimlanes
+\emph default
+ is a grouping of several element models.
+ Swimlines are used to separate and organize activities by participants
+ so that we can intuitively understand who is responsible for each event.
+ There are 2 types of swimlines namely pools and lanes.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+Pools
+\series default
+.
+ 
+\emph default
+Pools is a container for placing or drawing a business process.
+ The name of the pool can also be the name of a business process.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/42.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Pools Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\emph on
+Lanes.
+
+\series default
+\emph default
+ Lane is part of the Pool.
+ Lane is a barrier between participants who have their respective roles
+ in the organization.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/43.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Lanes Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+
+\emph on
+Artifacts 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Artifacts 
+\emph default
+is the element used to provide additional information from a process.
+ The forms and uses of these artifacts vary and can be broader depending
+ on the standard understanding of the BPMN used.
+ Currently there are 3 settings for setting artifacts, namely data object,
+ group, and annotations (Yudhanto, 2019).
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\emph on
+Data Object
+\series default
+.
+ Data object 
+\emph default
+provide information about the activities that need to be done and or what
+ is produced.
+ Data objects can represent a single object or a collection of many objects.
+ input data and output data provide the same information for the process.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/44.PNG
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Data Object Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\emph on
+Group.
+
+\series default
+ Group
+\emph default
+ is a visual mechanism that allows grouping of activities for documentation
+ or analysis purposes.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/45.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Group Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+\emph on
+Annotations.
+
+\series default
+\emph default
+ Aiming to provide additional information about the process for the reader.Bertuj
+uan untuk memberikan informasi tambahan tentang proses bagi pembaca.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/46.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Annotations Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+BPMN was initially developed by the Business Process Management Initiative
+ (BPMI).
+ BPMI released version 1.0 to the public in May 2004.
+ In June 2005, BPMI joined Object Management Group (OMG).
+ A BPMN Speci cation doc-ument was released by OMG in a month February 2006.
+ Version 2.0 of BPMN was developed in 2010, and the actual version of these
+ speci cations was released in December 2013.
+ The latest version (2.0.2) has been published o cially by ISO as a 2013 edition
+ Standard: ISO / IEC 19510.
+\end_layout
+
 \begin_layout Section
 IDEF
 \end_layout
