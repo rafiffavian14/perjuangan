@@ -1,0 +1,4498 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+%% \renewcommand{\chapter}[1]{\chapter[#1]{\centering #1}}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\centering}{\chaptertitlename\ \thechapter}{14pt}{\Huge}
+
+%%-------------
+\newcommand{\Judul}{The Implementation of}
+\newcommand{\JudulInggris}{The Implementation of}
+\newcommand{\Penulis}{Hasnadhia Raufani}
+\newcommand{\NPM}{53416241}
+\newcommand{\NIRM}{NIRM}
+\newcommand{\JenisTulisan}{Undergraduate Thesis}
+\newcommand{\Gelar}{Bachelor's Degree}
+\newcommand{\Fakultas}{Industrial Technology}
+\newcommand{\Jurusan}{Informatics  Engineering}
+%%-------------
+\newcommand{\Prodi}{Informatics Engineering}
+\newcommand{\Tahun}{2020}
+\newcommand{\Bulan}{February}
+\newcommand{\Tanggal}{20}
+\newcommand{\Kota}{Jakarta}
+\newcommand{\BulanTahun}{February 2020}
+%%-------------
+\newcommand{\KataKunci}{Algoritma, LBPH, Face Recognition, Emotion Recognition}
+\newcommand{\KeyWords}{Algorithm, LBPH, Face Recognition, Emotion Recognition}
+%%-------------
+\newcommand{\KoordinatorPI}{Dr. Edi Sukirman}
+%%-------------
+\newcommand{\KetuaJurusan}{Dr. Lintang Yuniar Banowosari, S.Kom., M.Sc.}
+\newcommand{\KetuaPembimbing}{Prof. Suryadi Harmanto, S.Si., MMSI.}
+\newcommand{\AnggotaPembimbingA}{Dr. Astie Darmayantie, S.T., MMSI., M.Sc.}
+\newcommand{\AnggotaPembimbingB}{}
+%%------------
+\newcommand{\KetuaUjian}{Dr. Ravi A. Salim}
+\newcommand{\SekUjian}{Prof. Dr. Wahyudi Priyono}
+\newcommand{\AnggotaUjianA}{nama ketua pembimbing}
+\newcommand{\AnggotaUjianB}{nama pembimbing 1}
+\newcommand{\AnggotaUjianC}{nama pembimbing 2}
+%%-------------
+\newcommand{\Ringkasan}{Tulis ringkasan skripsi, pi, atau apa dengan bahasa yang jelas, lugas dan menggambarkan secara singkat tulisan ini.  Sebaiknya tidak lebih dari 150 kata dan sudah menjelaskan dari permasalahan, pembahasan dan penutup.}
+\newcommand{\JumlahPustaka}{8}
+\newcommand{\JumlahHalaman}{80}
+\newcommand{\JumlahHalamanDepan}{10}
+\newcommand{\TahunPustaka}{2015-2020}
+%%
+%% Keterangan administratif sidang sarjana
+%%
+\newcommand{\TanggalSidang}{29 February 2020}
+\newcommand{\TanggalLulus}{}
+\newcommand{\TanggalSah}{}
+\newcommand{\PejabatBagianSidang}{Dr. Edi Sukirman, M.M.}
+\setlength{\headheight}{15pt}
+%%-------------
+%%
+%%Untuk Kata pengantar
+%%
+\newcommand{\Rektor}{Prof. Dr. E.S. Margianti, S.E., M.M.}
+\newcommand{\Dekan}{Prof. Dr. -Ing. Adang Suhendra, S.Si., S.Kom., M.Sc.}
+\newcommand{\KotaPenulis}{Jakarta}
+\newcommand{\BlnThn}{February 2020}
+%%-----------
+%%-----------
+% The following commands set the page numbers on the top right
+% except in the beginning of chapters
+\lhead{}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "charter" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Indeks
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 4cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Title Page}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size huge
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+FACULTY OF 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+MakeUppercase{
+\backslash
+Fakultas}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{12mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename LogoGunadarma.jpg
+	width 35mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{4mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+
+\series default
+\size default
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="middle" width="13cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Written by:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Student ID Number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Faculty
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Fakultas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Jurusan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Advisor 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KetuaPembimbing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaPembimbingA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{3mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Kota}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{1mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+
+\series bold
+\size huge
+GUNADARMA UNIVERSITY
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+FACULTY OF 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+MakeUppercase{
+\backslash
+Fakultas}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{12mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename LogoGunadarma.jpg
+	width 35mm
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{4mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="13cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Written by:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Student ID Number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Faculty
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Fakultas
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Department
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Jurusan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Advisor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KetuaPembimbing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaPembimbingA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size large
+Submitted in Partial Fulfillment of Requirements for Bachelor’s Degree 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{3mm}{
+\backslash
+center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Kota}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{0.5mm}{
+\backslash
+center}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+\noindent
+Originality and Publication Statement
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Originality and Publication Statement}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+I, the undersigned below:
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="35mm">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top" width="60text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Name
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Student ID Number
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Title
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Session Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TanggalSidang
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Passing Date
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TanggalLulus
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+Statting that the above writing is the result of my own work and can be
+ fully published by Gunadarma University.
+ All citations in any form have followed the applicable rules and ethics.
+ All copyrights of the logos and products mentioned in this book are property
+ of their respective rights holders, unless stated otherwise.
+ Regarding the content and writing is the responsibility of the Author,
+ not Gunadarma University.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+Thus this statement is made in truth and with full awareness.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{25mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Kota, 
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tanggal
+\backslash
+ 
+\backslash
+Bulan
+\backslash
+ 
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{25mm}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Chapter*
+Validation Page
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Validation Page}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+ADVISOR COMMITTEE
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Session Date: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TanggalSidang
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="10mm">
+<column alignment="left" valignment="top" width="80mm">
+<column alignment="center" valignment="top" width="45mm">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+No.
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none" width="80mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nama
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="45mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Position
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none" width="80mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KetuaPembimbing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none" width="45mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chairman
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaPembimbingA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Member
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaPembimbingB
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Member
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+BOARD OF EXAMINERS
+\series default
+
+\begin_inset Newline newline
+\end_inset
+
+Passing Date: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TanggalLulus
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="10mm">
+<column alignment="left" valignment="top" width="80mm">
+<column alignment="center" valignment="top" width="45mm">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+No.
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none" width="80mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nama
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none" width="45mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Position
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none" width="80mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KetuaUjian
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none" width="45mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chairman
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+SekUjian
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Secretary
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaUjianA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Member
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaUjianB
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Member
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaUjianC
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Member
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none" width="135mm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\align center
+Acknowledged by,
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Advisor I
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Advisor II
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaPembimbingA
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AnggotaPembimbingB
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Head of Bachelor's Defense
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Examination Department
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+PejabatBagianSidang
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Abstract
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Penulis
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+NPM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+MakeUppercase{
+\backslash
+Judul}
+\end_layout
+
+\end_inset
+
+.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Undergraduate Thesis, Faculty of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Fakultas
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+Jurusan
+\end_layout
+
+\end_inset
+
+ Department, Gunadarma University, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Tahun
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Keywords : 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KataKunci
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalamanDepan
+\end_layout
+
+\end_inset
+
+ + 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+JumlahHalaman
+\end_layout
+
+\end_inset
+
+ + attachments)
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abstract is is a brief explanation of research consisting of background,
+ problems, purpose and objectives of the research, methods and steps of
+ the research used, results and conclusions.
+\end_layout
+
+\begin_layout Standard
+This thesis discusses the parallel algorithm on Graphical Processing Unit
+ (GPU) for solving calculation problems ...
+ The author raises the theme because currently there has been a development
+ of parallel processing technology (prallel processor) in a graphics card
+ (graphics card) with GPU technology that has been used for processing computer
+ graphics calculations and is also possible for other calculations.
+ As it is known the complexity of the calculation algorithm ...
+ has been implemented to simulate ...
+ with a large time complexity.
+ This study transforms the singular calculation algorithm ...
+ into the form of parallel algorithms that are implemented in a GPU technology
+ and analyzes the level of efficiency based on the comparison of time complexity
+ between singular algorithms and parallel algorithms, to the amount of data
+ used.
+\end_layout
+
+\begin_layout Standard
+The stages of workmanship in this paper begin with a singular algorithm
+ analysis which then looks for parts that can be transformed into parallel
+ processing.
+ The algorithm implementation uses C ++ programming language by using CUDA
+ as a library for parallel programming on GPU devices.
+ The experimental results show an average speed up of ....., for the increasing
+ amount of data.
+ So it can be concluded that the parallel GPU algorithm can reduce the complexit
+y of time for .....
+ for calculations ...
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+
+\lang bahasa
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+noindent
+\end_layout
+
+\end_inset
+
+ Bibliography (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+TahunPustaka
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Chapter*
+Preface
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Preface}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All praise and gratitude the author rises to the presence of the Almighty
+ God who has given abundant blessings, gifts and gifts, so that the writer
+ can complete this Final Project at the appointed time.
+\end_layout
+
+\begin_layout Standard
+This Final Project was prepared in order to complete part of the requirements
+ for obtaining a Bachelor of Informatics Engineering from Gunadarma University.
+ The title of this Final Project is 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Although many difficulties that the author must face when compiling this
+ Final Project, but thanks to the help and encouragement of various parties,
+ finally this Final Project can be completed properly.
+ For that the author did not forget to thank:
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Rektor
+\end_layout
+
+\end_inset
+
+, as Rector of Gunadarma University.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Dekan
+\end_layout
+
+\end_inset
+
+, as Dean of Industrial Technology Faculty of Gunadarma University.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KetuaJurusan 
+\end_layout
+
+\end_inset
+
+, as Head of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Jurusan
+\end_layout
+
+\end_inset
+
+ Department of Gunadarma University.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+PejabatBagianSidang
+\end_layout
+
+\end_inset
+
+, as Head of Bachelor's Defense Examination Department of Gunadarma University.
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KetuaPembimbing
+\end_layout
+
+\end_inset
+
+, as a counselor for middlelevel writers who are dedicated to writing and
+ have guided the author and provided encourgament so that this writing can
+ be completed.
+\end_layout
+
+\begin_layout Enumerate
+The author's parents and brother that always give many prayers and support
+ to the author.
+\end_layout
+
+\begin_layout Enumerate
+My support system, Tasya Andhrea, Siti Putri Balqis, Nilla Kusuma Dewi,
+ Shabrina Almira, Amira Nurhasna, Luthfiya Naifa, Ananda Thifal, Bella Inas,
+ and Ajeng Cindie, who have give endless support and motivation to the author
+ to complete the Final Project.
+\end_layout
+
+\begin_layout Enumerate
+My best friends, Boris Garcia, Ibnu Fadilah Pangestu, Fattah Rizki Atmaji,
+ Andreas Binsar, Rifqi Ranadi, Achmad Fauzi, Abbas Abdul Ghaffar, Joshua
+ Filbert, and Yobel Kislew, who have give many useful advice and encouragement
+ to the author.
+\end_layout
+
+\begin_layout Enumerate
+My Final Project partner, Luna Colombini Adam, who
+\end_layout
+
+\begin_layout Enumerate
+All comrades at Gunadarma University, especially at IA88, who have given
+ motivation to the author.
+\end_layout
+
+\begin_layout Enumerate
+All parties that are not listed who have helped complete this Final Project,
+ the authors also say thank you for the help.
+ 
+\end_layout
+
+\begin_layout Standard
+As an ordinary human who does not escape mistakes, the author apologizes
+ for all the shortcomings and limitations in the preparation of this Final
+ Project.
+\end_layout
+
+\begin_layout Standard
+Finally, it is only to God that everything is returned and the writer realizes
+ that this writing is far from perfect, due to various limitations in the
+ preparations of this Final Project.
+\end_layout
+
+\begin_layout Standard
+Hopefully what is in the writing of this Final Project can be useful for
+ all of us.
+ Amen.
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{20mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+Kota
+\end_layout
+
+\end_inset
+
+, 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BulanTahun
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing single
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace*{10mm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Separator latexpar
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+Author
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Table of Contents}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{List of Figures}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thispagestyle{plain}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{List of Tables}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+INTRODUCTION
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Background
+\end_layout
+
+\begin_layout Standard
+In the framework of the smooth administration of government and the implementati
+on of improving public services required a professional and competent State
+ Civil Apparatus (ASN) through guidance that is carried out based on a system
+ that is in accordance with qualifications, competencies and performance.
+ In realizing this policy of fostering Civil Servants, much needed support.
+ Up-to-date Staffing Information and is able to accommodate all ASN management
+ needs.
+ ASN Information Systems based on merit systems will also contribute to
+ the targets set by Presidential Regulation No.
+ 54 of 2018 concerning a national strategy against corruption in which one
+ of the targets of Law Enforcement and Bureaucratic Reform is the implementation
+ and supervision of a merit system in ASN Management.
+ In line with this, to realize the acceleration of the implementation of
+ the Electronic-Based Government System (SPBE) as mandated by Presidential
+ Regulation No.
+ 95 of 2018, strategic planning and an integrated system of national staffing
+ are needed.
+ One that is supported in the application of Electronic-Based Government
+ Systems (SPBE) is the collaboration capability of existing electronic systems.
+ Currently discussing the integration of the system, so the data is still
+ in the silos, it is necessary to find in many state institutions.
+ The need to carry out digital transformation in the field of personnel
+ services requires a State System Apparatus Information System (SI ASN)
+ that is designed according to the SPBE concept.
+ The integration process according to the SPBE directives can be done if
+ the ASN is prepared using the microservice concept and uses data modeling
+ that facilitates data integration between ASN AS and other SPBE services.
+ The advantage of the microservice system is the addition of new service
+ features that do not need to be changed the old.
+ An integrated process between services can occur.
+ The technology used is different, and the database used is different.
+ To implement this microservice model, several sub-components need to be
+ provided, namely Metadata Repository and Service Directory.
+ This Metadata Repository will help the process of modeling data for integration
+ needs.
+ While the Service Directory will assist the process of providing the system
+ provided by the service provided.
+ 
+\end_layout
+
+\begin_layout Section
+Problem Statements
+\end_layout
+
+\begin_layout Standard
+Based on the background mentioned above, the formulation of the problem
+ in this study are:
+\end_layout
+
+\begin_layout Enumerate
+How to ensure security and facilitate data processing from various sources?
+ 
+\end_layout
+
+\begin_layout Enumerate
+What is the strategy for internal and external parties to know the data
+ held by BKN and the location of data storage in the information system?
+\end_layout
+
+\begin_layout Enumerate
+What is the strategy to help the data modeling process for integration needs?
+ 
+\end_layout
+
+\begin_layout Section
+Scope
+\end_layout
+
+\begin_layout Standard
+The research has a problem limitation, namely:
+\end_layout
+
+\begin_layout Standard
+1.
+ Discussion in this study focuses on data modeling for integration needs
+ in BKN.
+\end_layout
+
+\begin_layout Standard
+2.
+ The system development process in this study is based on Presidential Regulatio
+n No.
+ 95 of 2018, it requires an integrated strategic and systematic national
+ staffing system planning.
+\end_layout
+
+\begin_layout Section
+Methodology
+\end_layout
+
+\begin_layout Standard
+The methodology used in this study is as follows:
+\end_layout
+
+\begin_layout Enumerate
+literatur review.
+ Read the rules from the National Personnel Agency (BKN).
+\end_layout
+
+\begin_layout Enumerate
+Make data modeling from existing applications.
+\end_layout
+
+\begin_layout Enumerate
+Create business processes using BPMN for business processes application
+ repository metadata.
+\end_layout
+
+\begin_layout Enumerate
+Create a repository metadata application using laravel.
+ 
+\end_layout
+
+\begin_layout Section
+The Objective of the Study
+\end_layout
+
+\begin_layout Standard
+Based on the existing problem formulation, the purpose of this research
+ is to simplify repository metadata so that it does not become a complex
+ metadata.
+\end_layout
+
+\begin_layout Section
+Writing Systematics
+\end_layout
+
+\begin_layout Enumerate
+Chapter 1.
+ Introduction, this chapter describes the background of the problem, problem
+ formulation, research objectives, problem boundaries, research methodology,
+ and writing systematic.
+\end_layout
+
+\begin_layout Enumerate
+Chapter 2.
+ Theory Basis, This chapter explains the basic theory that includes Business
+ Process Model Notation (BPMN) and Integrated DEFinition (IDEF).
+\end_layout
+
+\begin_layout Enumerate
+Chapter 3.
+ Analysis and Design.
+\end_layout
+
+\begin_layout Enumerate
+Chapter 4.
+ Implementation and Testing.
+\end_layout
+
+\begin_layout Enumerate
+Chapter 5 Evaluation and Discussion, This chapter contains the results of
+ trials and discussions on the application of the repository metadata.
+\end_layout
+
+\begin_layout Enumerate
+Chapter 6 Closing, This chapter contains a review of the conclusions of
+ all the discussions in the thesis writing.
+ 
+\end_layout
+
+\begin_layout Chapter
+LITERATURE REVIEW
+\end_layout
+
+\begin_layout Section
+Distributed and Heterogen System
+\end_layout
+
+\begin_layout Standard
+One thing that needs to be considered in interoperability is that there
+ are various data managers, both within BKN and outside BKN.
+ For this reason, there is a need to establish a data document.
+ As shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Walidata-on-interoperability"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ In this way the consistency of data between agencies can be maintained,
+ for example a diploma owned by someone should
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/bab 2/interoperabilitas.PNG
+	scale 80
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Data Owner
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Walidata-on-interoperability"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+it depends on something in the PD DIKTI (Kemdikbud) because it is indeed
+ the institution that plays the role of data officer for the level of education.
+ The use of heterogeneous information systems requires an information system
+ to be interoperable.
+ It forms an integrated system and can be used by a variety of organizations.
+ Exchange of data and information in various forms becomes a challenge in
+ forming an information system.
+ It takes a central point in a heterogeneous system to harmonize data and
+ information.
+ Heterogeneous information systems require integration in harmonizing the
+ rate of exchange of data and information.
+ Some types of integration in heterogeneous systems are as follows: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Presentation integration.
+
+\series default
+ User interface that provides access to an application.
+ The advantages of the presentation integration model are the risk and low
+ cost, the available technology is relatively stable, easy to do, fast to
+ implement, no need to change source data.
+ While weaknesses exist in performance, perception, and the absence of interconn
+ection between applications and data.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Data integration.
+
+\series default
+ The data integration model is carried out directly on the database or data
+ structure of the application by ignoring presentation and business logic
+ when making integration.
+ The advantage of the data integration model is that it is better than the
+ presentation model and allows data to be used by other applications.
+ However, if there is a change in the data model, then the integration needs
+ to be revised or repeated.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Functional Integration.
+
+\series default
+ The integration process is carried out at the level of business logic by
+ utilizing distributed processing middleware.
+ The advantage of functional integration lies in its strong integration
+ capabilities among other integration models.
+ In addition, the functional integration model uses true code reuse infrastructu
+re for several applications in the enterprise.
+ The PBE integration process is not only in the infrastructure and eGovernment
+ applications but also in the eGovernment development budget.
+ Thus, the focus of the eGovernment integration process will include integration
+ as in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Jenis-Integrasi"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Data integration.
+
+\series default
+ put forward a data source that is OpenData.
+ This means that the public can access all data through one portal.
+ Basically, every institution.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/bab 2/jenis_integrasi.PNG
+	lyxscale 70
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Integration type
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Jenis-Integrasi"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+which functions as data trustees will provide access to reference data,
+ consolidate and validate data.
+ Thus, various data sources that have various qualities, validations, bureaucrat
+ic structures and stages of updating data can be utilized appropriately.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Application integration
+\series default
+, making various eGovernment applications can exchange data even though
+ they are created and operated by different parties.
+ Interoperability can be maintained.
+ Thus each application can exchange data without the need to duplicate the
+ data entry process.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Service integration,
+\series default
+ opening one door to business processes.
+ This results in simplification of the process because it digitizes the
+ manual, also changes the regulation due to the use of digital platforms.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Intervening governance
+\series default
+, arranging the authority that belongs to the central, regional and existing
+ institutions.
+ Governance must be carefully defined and supported by implementing human
+ resources who have skills with certain standards.
+ If this is done, even the process of integrating governance, both in terms
+ of organization and human resources, is more easily achieved.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Budget integration,
+\series default
+ aimed at minimizing budget duplication which is usually caused by the developme
+nt of eGovernment based on organizational structure, not achievements and
+ work programs.
+ The budget is duplicated because it is implemented by a different structure.
+ 
+\end_layout
+
+\begin_layout Standard
+Problems in heterogeneous information systems are information systems in
+ each organization that cannot exchange data and information.
+ Data interoperability will streamline work and can analyze AI-based information
+ systems.
+ The use of AI will support new knowledge and better decision making.
+\end_layout
+
+\begin_layout Section
+Metadata Repository
+\end_layout
+
+\begin_layout Standard
+Metadata is simply defined in English as data about data, or data about
+ data.
+ This metadata is needed to describe all relevant aspects of the data warehouse.
+ A simple example of metadata in the scope of database names.
+ database location, table name, field name, and type.
+ and so forth.
+ Within the scope of the data warehouse in particular.
+ There are three main types of metadata:
+\end_layout
+
+\begin_layout Itemize
+Descriptive metadata describes a resource for a purpose such as discovery
+ and identification.
+ It can include elements such as title, abstract, author, and keyword.
+\end_layout
+
+\begin_layout Itemize
+Structural metadata shows how a collection of objects are arranged together
+ into one, such as how the pages are arranged to form a chapter.
+\end_layout
+
+\begin_layout Itemize
+Administrative metadata provides information to help manage resources, such
+ as when and how information is created, types of documents and other technical
+ information, and who can access them.
+\end_layout
+
+\begin_layout Standard
+Benefits of Metadata Publishing When classifying the benefits of publishing
+ two groups of metadata is usually considered.
+ External parties are usually consumers of information that are not part
+ of the publishing organization.
+ Internal parties are usually various business units or departments within
+ an organization.
+\end_layout
+
+\begin_layout Standard
+Benefits for external parties include:
+\end_layout
+
+\begin_layout Itemize
+Enables external systems (both people and agents) to have a clear understanding
+ of the semantics of data elements in a system.
+\end_layout
+
+\begin_layout Itemize
+Enables third parties to construct semantic maps between data models and
+ inter-system import and export data.
+\end_layout
+
+\begin_layout Itemize
+Promote service-oriented architecture and allow horizontal information sharing
+ between traditional information silos.
+\end_layout
+
+\begin_layout Itemize
+Enables the system to participate in the search process that is indexed
+ accurately and encrypted
+\end_layout
+
+\begin_layout Itemize
+Benefits for internal parties include:
+\end_layout
+
+\begin_layout Itemize
+Allow parties from diverse business units to agree on definitions of shared
+ data and specific definitions of different departments or functions.
+\end_layout
+
+\begin_layout Itemize
+Make Extract, transform, load (ETL) operations more appropriate for data
+ warehousing.
+\end_layout
+
+\begin_layout Itemize
+Enables the user interface designer to access common screen sets and header
+ labels.
+\end_layout
+
+\begin_layout Itemize
+Promotion of model-driven architecture
+\end_layout
+
+\begin_layout Section
+Business Process Modelling Notation
+\end_layout
+
+\begin_layout Standard
+Business Process Modeling Notation (BPMN) describes a business process diagram
+ that is which are based on flowchart techniques, arranged to create graphical
+ models from business operations where there are defining activities and
+ flow controls work order.
+ BPMN was developed by a consortium of industries (BPMN.org), namely constituents
+ representing various BPM tool vendors but not as a final opening, said
+ that "The Business Process Modeling Notation is Emerging as a standard
+ language for capturing business process, e-specially at the level of domain
+ analysis and high level systems design.
+ The BPMN diagram consists of elements.
+ This element is divided into four categories, namely:
+\end_layout
+
+\begin_layout Itemize
+Flow Object,
+\end_layout
+
+\begin_layout Itemize
+Connecting Object,
+\end_layout
+
+\begin_layout Itemize
+Swimlanes, and 
+\end_layout
+
+\begin_layout Itemize
+artifact.
+\end_layout
+
+\begin_layout Subsection
+Flow Object
+\end_layout
+
+\begin_layout Standard
+Flow object is the main element that describes the characteristics of a
+ business process.
+ Flow Object consists of 3 elements, namely event, activity, and gateway.
+\end_layout
+
+\begin_layout Itemize
+Event
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+An event is something that happens during a series of business processes.
+ This event affects the flow of the process and usually has an action or
+ an outcome.
+ The symbol is a circle and based on the flow of influence, there are 3
+ types of events, namely: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Start Event
+\series default
+ used to describe the beginning of a process.
+ There is no process flow before Start Events.
+ Start Events are drawn in a circle with a thin line.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+None Start Event used to mark the start of a process without any triggers
+ or conditions defined to start a process 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/1.PNG
+	scale 90
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+none start event notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Message Start Event used to start a process with a trigger that is a message
+ received.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/2.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Message Start Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Timer Start Event describe the process will begin at a certain time or on
+ a specified date.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/3.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+Timer Start Event Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+IDEF
+\end_layout
+
+\begin_layout Subsection
+idef definition
+\end_layout
+
+\begin_layout Standard
+IDEF (Integrated Definition) is a group of modeling methods that can be
+ used to establish data models, business processes, and taxonomy of information
+ [Ferry and Saputra, 2013].
+ IDEF methods are used to form modeling activities that support enterprise
+ integration, where the first few methods are developed with the aim of
+ improving communication among people who need to decide how the existing
+ system is integrated, namely IDEF0, IDEF1, IDEF2, IDEF3, IDEF5 and IDEF6,
+ while the second IDEF method group (IDEF7 - IDEF14) is focused on the design
+ part of the system development process, including IDEF1X and IDEF methods
+ as follows: 
+\end_layout
+
+\begin_layout Itemize
+IDEF0: Function Modeling (Analysis) 
+\end_layout
+
+\begin_layout Itemize
+IDEF1: Information Modeling (Analysis) 
+\end_layout
+
+\begin_layout Itemize
+IDEF1X: Data Modeling (Design)
+\end_layout
+
+\begin_layout Itemize
+IDEF3: Process Modeling (Analysis and design) 
+\end_layout
+
+\begin_layout Itemize
+IDEF4: Object-Oriented Design (Design)
+\end_layout
+
+\begin_layout Itemize
+IDEF5: Ontology Ontology Description Capture (Analysis)
+\end_layout
+
+\begin_layout Itemize
+IDEF6: Design Rationale Capture
+\end_layout
+
+\begin_layout Itemize
+IDEF7: Informaton System Audit Method 4 
+\end_layout
+
+\begin_layout Itemize
+IDEF8: Human-System Interaction Modeling
+\end_layout
+
+\begin_layout Itemize
+IDEF9: Busness-Constraint Discovery Method (Analysis) 
+\end_layout
+
+\begin_layout Itemize
+IDEF10: Implementation Architecture Modeling
+\end_layout
+
+\begin_layout Itemize
+IDEF11: Information Artifac Modeling
+\end_layout
+
+\begin_layout Itemize
+IDEF12: Organizational Design Method 
+\end_layout
+
+\begin_layout Itemize
+IDEF13: 3-Schema Architecture Design Method
+\end_layout
+
+\begin_layout Itemize
+IDEF14: Network / Distribution Design Method
+\end_layout
+
+\begin_layout Subsection
+ IDEF 0 Modeling Functions
+\end_layout
+
+\begin_layout Standard
+IDEF0 (Integration Definition language 0) is a method of modeling systems
+ based on SADT (Structured Analysis and Design Technique), developed by
+ Douglas T.
+ Ross and SofTech, Inc.
+ In its original form, IDEF0 includes language definitions and graphical
+ modeling (syntax and semantics) which describe a comprehensive methodology
+ for building models [5].
+ IDEF0 can be used to model various types of systems, both automatic and
+ non-automatic.
+ For new systems, IDEF0 can be used to define requests and make function
+ specifications, and then be used to design and implement designs that suit
+ your needs.
+\end_layout
+
+\begin_layout Standard
+IDEF0 allows the user to describe a process viewpoint including (referring
+ to ICOM):
+\end_layout
+
+\begin_layout Itemize
+Input, i.e.
+ resources that are consumed/transformed (refined) by the process;
+\end_layout
+
+\begin_layout Itemize
+Output, namely the things that are produced during the consumption/transformatio
+n of inputs by the process;
+\end_layout
+
+\begin_layout Itemize
+Control, which is things that guide the process: policies, guidelines, standards
+, laws;
+\end_layout
+
+\begin_layout Itemize
+The Mechanism, which is an intermediary who completes actions (activities)
+ that limit the process.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Characteristics of Idef 0:
+\end_layout
+
+\begin_layout Itemize
+Comprehensive and expressive, able to graphically represent various businesses,
+ factories and other types of companies at every level of detail.
+\end_layout
+
+\begin_layout Itemize
+The Language that is coherent and simple, provides precise and precise expressio
+ns and improves the consistency of use and interpretation
+\end_layout
+
+\begin_layout Itemize
+Improve communication between system analysts, developers, and users through
+ easy learning and detailed explanations in each part of the document.
+\end_layout
+
+\begin_layout Itemize
+It has been tested and proven, through its many years of use in the air
+ force and other government development projects, as well as industry.
+\end_layout
+
+\begin_layout Itemize
+it can be generated from a variety of computer graphics tools; several commercia
+l products specifically support the development and analysis of IDEF0 diagrams
+ and models.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Main Components
+\end_layout
+
+\begin_layout Standard
+The main components in IDEF0 are as follows:
+\end_layout
+
+\begin_layout Itemize
+The box describes the main functions of the system.
+ In this box, the function is usually written in the form of verbs.
+\end_layout
+
+\begin_layout Itemize
+Arrows that indicate input (input data) are drawn from the left with the
+ tip of the arrow going to the box that receives input.
+\end_layout
+
+\begin_layout Itemize
+Arrows that indicate output (product) and are drawn from the right direction
+ with the tip of the arrow showing other boxes (if any) or pointing to the
+ right (if there are no / other functions that accept the output).
+\end_layout
+
+\begin_layout Itemize
+The output of a function can be input to other functions.
+\end_layout
+
+\begin_layout Itemize
+Arrows that indicate the controller/control of a function, depicted from
+ the top with arrows entering the function.
+ Control can be in the form of rules or operational control functions.
+ Controls can also be output from other functions.
+\end_layout
+
+\begin_layout Section
+XSD
+\end_layout
+
+\begin_layout Standard
+Extensible Markup Language (XML) is a markup language that is designed to
+ be an easy means of sending documents through the Web.
+ Unlike Hypertext Markup Language (HTML), XML allows users to define custom
+ tags.
+ However, the XML standard has no semantic constraints on the meaning of
+ the document.
+ XML emerged as the dominant standard for the representation and exchange
+ of data through the Internet.
+ XML has a nested structure and maps itself, this makes it easy for applications
+ to model and exchange data.
+ With so much data represented as XML documents, it becomes very necessary
+ to store and query these XML documents.
+ To overcome this problem, an XML database system has been built.
+\end_layout
+
+\begin_layout Standard
+XML emerged as the dominant standard for data representation and exchange
+ via the Internet.
+ XML has a nested structure and maps itself, this makes it easy for applications
+ to model and exchange data.
+ With so much data represented as XML documents, it becomes very necessary
+ to store and query these XML documents.
+ To overcome this problem, an XML database system has been built.
+\end_layout
+
+\begin_layout Standard
+XML Schema Better known as XML Schema Definition (XSD) is an XML vocabulary
+ that is used to express the rules (data definition) used in an XML data.
+ Based on XSD, an XML document can be specified in detail of the structure
+ and type of data.
+ The background to the emergence of the concept and XML Schema is the dissatisfa
+ction with DTD.
+ DTD uses a different command that is Extended Backus Naur Form (EBNF) while
+ XML documents use XML commands.
+ The difference in the use of commands causes inconsistent data.
+\end_layout
+
+\begin_layout Standard
+As a result the idea arose to make the definition of data used in XML data
+ using XML commands.
+ XSD is a development and DTD as a data definition and XML document.
+ Based on the function and composition there are two types of XSD, namely
+ flat and hierarchical schema.
+ Flat schema is used to verify XML XML documents that are used to move and
+ store data.
+ Hierarchical schema is used to help facilitate the display of stored data.
+ One of the biggest strengths of XML Schema is support for data types.
+ With support for data types:
+\end_layout
+
+\begin_layout Standard
+• It is easier to explain the contents of permitted documents
+\end_layout
+
+\begin_layout Standard
+• Easier to validate data correctness
+\end_layout
+
+\begin_layout Standard
+• It's easier to work with data from a database
+\end_layout
+
+\begin_layout Standard
+• Easier to define aspects of data (data restrictions)
+\end_layout
+
+\begin_layout Standard
+• Easier to define data patterns (data format)
+\end_layout
+
+\begin_layout Standard
+• Easier to convert data between different data types
+\end_layout
+
+\begin_layout Chapter
+ANALYSIS AND DESIGN
+\end_layout
+
+\begin_layout Section
+Overall Design
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Design of the Application
+\end_layout
+
+\begin_layout Subsection
+Dataset Acquisition
+\end_layout
+
+\begin_layout Subsubsection
+Face Dataset
+\end_layout
+
+\begin_layout Subsubsection
+Emotion Dataset
+\end_layout
+
+\begin_layout Subsection
+Dataset Pre-processing
+\end_layout
+
+\begin_layout Subsubsection
+Grayscale
+\end_layout
+
+\begin_layout Subsubsection
+Gaussian Blur
+\end_layout
+
+\begin_layout Subsubsection
+Unsharp Mask
+\end_layout
+
+\begin_layout Subsection
+Face Detection
+\end_layout
+
+\begin_layout Subsection
+Training
+\end_layout
+
+\begin_layout Subsubsection
+The Local Binary Pattern Histogram Algorithm
+\end_layout
+
+\begin_layout Subsection
+Testing
+\end_layout
+
+\begin_layout Chapter
+IMPLEMENTATION AND FINDINGS
+\end_layout
+
+\begin_layout Section
+Implementation
+\end_layout
+
+\begin_layout Subsection
+Data Acquisition
+\end_layout
+
+\begin_layout Subsubsection
+Face Dataset
+\end_layout
+
+\begin_layout Subsubsection
+Emotion Dataset
+\end_layout
+
+\begin_layout Subsection
+Preprocessing
+\end_layout
+
+\begin_layout Subsubsection
+Grayscale
+\end_layout
+
+\begin_layout Subsubsection
+Gaussian Blur
+\end_layout
+
+\begin_layout Subsubsection
+Unsharp Mask
+\end_layout
+
+\begin_layout Subsection
+Face Detection
+\end_layout
+
+\begin_layout Subsection
+Training
+\end_layout
+
+\begin_layout Subsection
+Testing
+\end_layout
+
+\begin_layout Chapter
+CONCLUSIONS
+\end_layout
+
+\begin_layout Section
+Conclusions
+\end_layout
+
+\begin_layout Standard
+Berdasarkan hasil penelitian, maka ditunjukkan bahwa algortima singular
+ untuk perhitungan .....
+ dapat ditransformasikan kedalam alogorimta paralel GPU.
+ Proses transformasi paralel berdasarkan distribusi tahap perhitungan kedalam
+ blok pemrosesan di GPU.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Strunk"
+literal "true"
+
+\end_inset
+
+Implementasi library CUDA digunakan untuk pemrograman dengan menggunakan
+ bahasa pemrograman C++.
+ Hasil percobaan menunjukkan bahwa speed-up algoritma paralel terhadap algoritma
+ singular rata-rata sebesar ....
+ terhadap tingkat pertambahan jumlah data sebesar 
+\begin_inset Formula $10^{n}$
+\end_inset
+
+.
+ Sehingga dapat disimpulkan bahwa algoritma paralel GPU untuk perhitungan
+ .....
+ dapat digunakan untuk mempercepat waktu pemrosesan, khusunya untuk data
+ yang berukuran sebesar 
+\begin_inset Formula $10^{x}$
+\end_inset
+
+.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "StuartNorvig"
+literal "true"
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Suggestions
+\end_layout
+
+\begin_layout Standard
+Saran merupakan usulan dari hasil penelitian lebih lanjut yang belum dibahas
+ pada penelitian ini.
+\end_layout
+
+\begin_layout Standard
+Penelitian ini telah menghasilkan sebuah implementasi algoritma paralel
+ GPU untuk perhitungan .....
+ Tentu saja algoritma tersebut dapat ditingkatkan tingkat efisiensinya untuk
+ menambah faktor speed-up algoritma paralel.
+ Diharapkan untuk penelitian selanjutnya dapat meneliti beberapa aspek perhitung
+an yang dapat diparalelkan kembali, ataupun menggunakan pendekatan algoritma
+ paralel lainnya sehingga dapat meningkatkan pemanfaatan teknologi GPU.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Karypis"
+literal "true"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+bibname{DAFTAR PUSTAKA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "biblio"
+options "IEEEtranS"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Bibliography}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+Attachments
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+addcontentsline{toc}{chapter}{Attachments}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
