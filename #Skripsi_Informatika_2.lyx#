@@ -8440,7 +8440,7 @@ BPMN from MR-related processes
 
 \series bold
 \lang bahasa
-Tahap Pelaksanaan
+Implementation Stage
 \end_layout
 
 \begin_layout Enumerate
@@ -8448,84 +8448,80 @@ Tahap Pelaksanaan
 \lang bahasa
 The Work Unit submits a test request by including DOK system development
  documents: PSO-02.04.01, DOK system installation documents: PSO-02.04.02 and
- DOK usage guidance documents: PSO-02.04.03 to Sinka
+ DOK usage guidance documents: PSO-02.04.03 to Sinka.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-2.
- Sinka checks the completeness of documents sent by the Work Unit
+Sinka checks the completeness of documents sent by the Work Unit.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-3.
- Sinka prepares a system testing environment, in the form of:
-\end_layout
-
-\begin_layout Enumerate
-
-\lang bahasa
-(
+Sinka prepares a system testing environment, in the form of:
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
 
 \lang bahasa
-Lingkungan pengujian dengan spesifikasi sesuai dengan dokumen DOK:PSO-02.04.02
+Testing environment with specifications according to DOK document: PSO-02.04.02.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-Perangkat uji kehandalan sistem elektronik sesuai dengan jenis sistem elektronik
+Electronic system reliability test equipment according to the type of electronic
+ system.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-Perangkat uji keamanan sistem elektronik sesuai dengan jenis sistem elektronik
+Electronic system security test equipment according to the type of electronic
+ system.
 \end_layout
 
 \end_deeper
 \begin_layout Enumerate
 
 \lang bahasa
-Sinka melakukan uji kemanan sistem elektronik sesuai dengan perangkat uji
- yang telah di tentukan
+Sinka conducts an electronic system security test in accordance with the
+ test equipment specified.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-Sinka memberikan rekomendasi ke Unit Kerja pemilik sistem sesuai dengan
- hasil pengujian sistem elektronik
+Sinka provides recommendations to the Work Unit of the system owner in accordanc
+e with the results of electronic system testing.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-Unit Kerja memperbaiki kode sumber beserta dokumen pengembagan sistem DOK:PSO-02.
-04.01, dokumen pemasangan (installasi) sistem DOK:PSO-02.04.02 dan dokumen
- panduan penggunaan DOK:PSO-02.04.03 sesuai dengan rekomendasi Sinka
+The Work Unit improves the source code along with DOK system development
+ documents: PSO-02.04.01, DOK system installation documents: PSO-02.04.02 and
+ DOK usage guidance documents: PSO-02.04.03 in accordance with Sinka recommendatio
+ns.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-Sinka menyimpan dokumen rekomendasi perbaikan kualitas layanan dan keamanan
- sistem elektronik 1 ke dalam sitem repositori
+Synchronously save the document recommending improving the quality of service
+ and electronic system security 1 into the repository system.
 \end_layout
 
 \begin_layout Enumerate
 
 \lang bahasa
-Unit Kerja menyimpan kode sumber beserta dokumen pengembangan sistem final
- 2 , dokumen pemasangan (installasi) sistem final 3 dan dokumen panduan
- penggunaan final 4 sesuai dengan rekomendasi Sinka ke dalam sistem repositori
+The Work Unit stores the source code along with the final system development
+ document 2, the final system installation document 3 and the final usage
+ guidance document 4 in accordance with Sinka's recommendations into the
+ repository system.
 \end_layout
 
 \begin_layout Subsection
@@ -8556,8 +8552,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename C:/Users/rafif/Desktop/tugas4/bab3/bpmn.PNG
-	scale 60
+	filename C:/Users/rafif/Desktop/tugas4/bpmn-english/PSO-01.02 Perencanaan Pengadopsian Sistem.png
+	lyxscale 30
+	scale 10
 
 \end_inset
 
@@ -8595,22 +8592,8 @@ Data Model
 \end_layout
 
 \begin_layout Standard
-(IDEF 1, XSD dari data)
-\end_layout
-
-\begin_layout Standard
 below is the xml schema definition (xsd) of the repository metadata application.
- There are 10 attributes, namely 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:user-xsd"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-:
+ There are 10 attributes, namely:
 \end_layout
 
 \begin_layout Enumerate
@@ -9025,10 +9008,6 @@ Fungsional Specification
 \end_layout
 
 \begin_layout Standard
-IDEF 0 dari sistem
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -9052,6 +9031,13 @@ status open
 
 \lang bahasa
 IDEF 0
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:IDEF-0"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9065,9 +9051,18 @@ IDEF 0
 \end_layout
 
 \begin_layout Standard
-In the picture above there are 5 processes, namely the Submission process,
- the queue process, the sync process, the denormalization process, and the
- utilization process.
+In Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:IDEF-0"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, there are 5 processes, namely the Submission process, the queue process,
+ the sync process, the denormalization process, and the utilization process.
  in the first process, there is a submission process which is where there
  is input from submitting from the user then controlled by the type of update
  and produces a temporary database output, in this process the user and
@@ -9154,51 +9149,1654 @@ name "fig:User-Flow"
 \end_layout
 
 \begin_layout Chapter
-IMPLEMENTATION AND FINDINGS
+
+\lang english
+Implementation 
 \end_layout
 
 \begin_layout Section
-Implementation
+
+\lang english
+System Design
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+At this point, the author will discuss the system design especially from
+ the position of interoperability.
 \end_layout
 
 \begin_layout Subsection
-Data Acquisition
+
+\series bold
+\size large
+\lang english
+Login Mechanism
 \end_layout
 
-\begin_layout Subsubsection
-Face Dataset
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Login"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design of the metadata repository application login page.
+ the user must enter a username and password in order to enter the main
+ page
 \end_layout
 
-\begin_layout Subsubsection
-Emotion Dataset
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/login.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Login
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Login"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Preprocessing
+
+\series bold
+\size large
+\lang english
+User Page
 \end_layout
 
-\begin_layout Subsubsection
-Grayscale
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dashboard-table-user"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a user dashboard, where there is a list of users that contain user biodata
+ registered in the repository metadata application.
 \end_layout
 
-\begin_layout Subsubsection
-Gaussian Blur
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/dashboard-user.PNG
+	width 75col%
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsubsection
-Unsharp Mask
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Dashboard table user
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dashboard-table-user"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Face Detection
+
+\series bold
+\size large
+\lang english
+Role Page
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dashboard-table-role"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a dashboard role table, where there is a list of role names in the metadata
+ repository application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/access_role.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Dashboard table role
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dashboard-table-role"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Training
+
+\series bold
+\size large
+\lang english
+SIM Page
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sim-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a SIM page design, where there are lists of SIM names in the repository
+ metadata application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-sim.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Sim Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sim-Page"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Testing
+
+\series bold
+\size large
+\lang english
+Database Page
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Database-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a database page design, where there are lists of database names in the
+ metadata repository application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-database.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Database Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Database-Page"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+Table Page
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a table page design, where there are lists of table names in the metadata
+ repository application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-table.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Table Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Table-Page"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+Access Page
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Access-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is an access table page design, where the admin can set any page that can
+ be seen by the user in the repository metadata application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/sim_access.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Access Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Access-Page"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+Data Structure Pages
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Data-Structure-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design of the data structure table page that the user can see and
+ check, besides that the user can also download the data structure by clicking
+ the download button.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/download-table.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Data Structure Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Data-Structure-Page"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+File upload page
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:File-Upload"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design page for uploading data structure files by the system owner
+ to the metadata repository application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/upload-file.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+File Upload
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:File-Upload"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Technology implementation
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Jelaskan Layering sistem, dan Framework yang digunakan, serta 
+\begin_inset Quotes eld
+\end_inset
+
+snippet
+\begin_inset Quotes erd
+\end_inset
+
+ code yang penting
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+Layering System
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+to create a repository metadata application, there are several technologies
+ used by the author, namely, from the server side the author uses apache,
+ from the programming language the author uses php, css, and javascript,
+ then from the framework the author uses laravel, and for the database the
+ author uses PostgreeSql.
+ for more details, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:technology"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/tech.jpg
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+technology
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:technology"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+Snippet Code
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\lang english
+Login Snippet Code
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+snippet code Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:login-view"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code from the login page in the view section of the metadata repository
+ application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/login-view.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+login-view
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:login-view"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+snippet code Figure 4.12 below is a code from the login page in the Controller
+ section of the metadata repository application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/login-controller.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+login-controller
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:login-controller"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+\lang english
+Structure Data Snippet Code
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+snippet code figure 4.13 below is a code for how to display the data structure
+ in the view in the metadata repository application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/data-view.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+data-view
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+snippet code figure 4.14 below is a code for how to display the data structure
+ in the controller in the metadata repository application.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/data-controller.PNG
+	width 75col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+data-controller
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang english
+Task and Interaction Implementation
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Jelaskan Task yang ada dan menu yang terkait dan flow dari screen shot nya
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+Implementation of the Metadata Repository
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+To enable a better integration process, a Metadata Repository is implemented
+ in the BKN environment.
+ This Metadata Repository has the function of storing data definitions and
+ other data description.
+ So that is a form of a more complete data catalog.
+ Use MR is as follows:
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Every information system manager in the BKN environment will include information
+ about data managed into the system.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Each system manager will enter information about, 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang english
+SIM managed
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Database used for each SIM 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Tables in the database 
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+The data in the table, along with information about the data, for example,
+ type data, examples and so on.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang english
+Each party that will access data for example for interoperability or data
+ integration, then you can look to this Metadata Repository related to data
+ definitions and information about that data
+\end_layout
+
+\begin_layout Itemize
+
+\lang english
+Information about the data is provided in the form of Schema data, tables
+ and graphical descriptions.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Each MR user will have different access to get information about definitive
+ data is on BKN.
+ Determination of the role's access via the menu as shown in Figure 4.15.
+ Each system owner can be flexibly assigned access rights.
+ Likewise each SIM owner can determine access rights as in Figure 4.16 Every
+ MR user can see what SIMs are in the BKN environment.
+ Presentation SIMs in the BKN are shown in Figure 4.17.
+ In this way it is to find out and record which SIMs are managed in BKN
+ can be more easily.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/access_role.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Table Access Role
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/sim_access.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+SIM access rights
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/halaman-sim.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Show SIM menu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-database.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Form Create Database
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+with this if there are parties who need certain data, then the data is easily
+ known on what SIM.
+\end_layout
+
+\begin_layout Subsection*
+
+\series bold
+\size large
+\lang english
+4.3.2 How to register with MR
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+When a work unit makes or has a SIM and will register with the MR This is
+ done by using the SIM menu creation as shown in Figure 4.2.1.
+ Written name SIM related.
+ After a SIM is registered, it is necessary to register the databases on
+ the SIM.
+ For this, the menu is like the one in Figure 4.2.2 After the database is
+ registered it needs to be set which party may know that there is The database
+ is in the BKN environment.
+ For this reason, the menu in Figure 4.2.3 is applied.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/table_access.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Table Permission
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/halaman-table.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+page table
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-sim.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Register a new SIM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/database_access.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+database permission table
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-table.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Registering Table
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/upload-file.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Upload Schema Definition File
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+Upload Schema Definition File After the SIM is registered, and the database
+ is registered.
+ Next is registering Table in the database.
+ To register a table that is in a database is used menu as shown in Figure
+ 4.2.3 Each data structure is provided both with tables, definitions in the
+ form of data, and also XML Schema definition of the table.
+ To upload XSD files and other definitions, then Use the menu shown in Figure
+ 4.2.4.
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+\size large
+\lang english
+How to use the Metadata Repository
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+After the SIM, database and table are entered into the MR statement, the
+ external party and internal BKN can more easily find out the data available
+ in the BKN environment.
+ Every people can access this information as shown in Figure 6.12.
+ On the menu presented data definitions, and other information.
+ Data schema information can be downloaded.
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang english
+\begin_inset Graphics
+	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/download-table.PNG
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+See Data Definition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter

@@ -9163,12 +9163,6 @@ System Design
 \begin_layout Standard
 
 \lang english
-Rancang bangun sistem (terutama dari posisi interoperabilitas)
-\end_layout
-
-\begin_layout Standard
-
-\lang english
 At this point, the author will discuss the system design especially from
  the position of interoperability.
 \end_layout
@@ -9184,8 +9178,17 @@ Login Mechanism
 \begin_layout Standard
 
 \lang english
-The image below is the design of the metadata repository application login
- page.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Login"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design of the metadata repository application login page.
  the user must enter a username and password in order to enter the main
  page
 \end_layout
@@ -9220,6 +9223,13 @@ status open
 
 \lang english
 Login
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Login"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9243,8 +9253,18 @@ User Page
 \begin_layout Standard
 
 \lang english
-The picture below is a user dashboard, where there is a list of users that
- contain user biodata registered in the repository metadata application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dashboard-table-user"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a user dashboard, where there is a list of users that contain user biodata
+ registered in the repository metadata application.
 \end_layout
 
 \begin_layout Standard
@@ -9277,6 +9297,13 @@ status open
 
 \lang english
 Dashboard table user
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dashboard-table-user"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9300,8 +9327,18 @@ Role Page
 \begin_layout Standard
 
 \lang english
-The picture below is a dashboard role table, where there is a list of role
- names in the metadata repository application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dashboard-table-role"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a dashboard role table, where there is a list of role names in the metadata
+ repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9334,6 +9371,13 @@ status open
 
 \lang english
 Dashboard table role
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dashboard-table-role"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9357,8 +9401,18 @@ SIM Page
 \begin_layout Standard
 
 \lang english
-The picture below is a SIM page design, where there are lists of SIM names
- in the repository metadata application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sim-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a SIM page design, where there are lists of SIM names in the repository
+ metadata application.
 \end_layout
 
 \begin_layout Standard
@@ -9391,6 +9445,13 @@ status open
 
 \lang english
 Sim Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sim-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9414,8 +9475,18 @@ Database Page
 \begin_layout Standard
 
 \lang english
-The picture below is a database page design, where there are lists of database
- names in the metadata repository application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Database-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a database page design, where there are lists of database names in the
+ metadata repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9448,6 +9519,13 @@ status open
 
 \lang english
 Database Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Database-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9471,8 +9549,18 @@ Table Page
 \begin_layout Standard
 
 \lang english
-The picture below is a table page design, where there are lists of table
- names in the metadata repository application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a table page design, where there are lists of table names in the metadata
+ repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9505,6 +9593,13 @@ status open
 
 \lang english
 Table Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Table-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9528,8 +9623,18 @@ Access Page
 \begin_layout Standard
 
 \lang english
-The picture below is an access table page design, where the admin can set
- any page that can be seen by the user in the repository metadata application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Access-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is an access table page design, where the admin can set any page that can
+ be seen by the user in the repository metadata application.
 \end_layout
 
 \begin_layout Standard
@@ -9562,6 +9667,13 @@ status open
 
 \lang english
 Access Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Access-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9585,9 +9697,19 @@ Data Structure Pages
 \begin_layout Standard
 
 \lang english
-The picture below is the design of the data structure table page that the
- user can see and check, besides that the user can also download the data
- structure by clicking the download button.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Data-Structure-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design of the data structure table page that the user can see and
+ check, besides that the user can also download the data structure by clicking
+ the download button.
 \end_layout
 
 \begin_layout Standard
@@ -9620,6 +9742,13 @@ status open
 
 \lang english
 Data Structure Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Data-Structure-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9643,8 +9772,18 @@ File upload page
 \begin_layout Standard
 
 \lang english
-below is the design page for uploading data structure files by the system
- owner to the metadata repository application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:File-Upload"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design page for uploading data structure files by the system owner
+ to the metadata repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9677,6 +9816,13 @@ status open
 
 \lang english
 File Upload
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:File-Upload"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9725,7 +9871,17 @@ to create a repository metadata application, there are several technologies
  from the programming language the author uses php, css, and javascript,
  then from the framework the author uses laravel, and for the database the
  author uses PostgreeSql.
- for more details, as shown in Figure 4.10 below.
+ for more details, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:technology"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -9758,6 +9914,13 @@ status open
 
 \lang english
 technology
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:technology"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9788,8 +9951,18 @@ Login Snippet Code
 \begin_layout Standard
 
 \lang english
-snippet code Figure 4.11 below is a code from the login page in the view
- section of the metadata repository application.
+snippet code Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:login-view"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code from the login page in the view section of the metadata repository
+ application.
 \end_layout
 
 \begin_layout Standard
@@ -9822,6 +9995,13 @@ status open
 
 \lang english
 login-view
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:login-view"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9837,8 +10017,18 @@ login-view
 \begin_layout Standard
 
 \lang english
-snippet code Figure 4.12 below is a code from the login page in the Controller
- section of the metadata repository application.
+snippet code Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:login-controller"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code from the login page in the Controller section of the metadata
+ repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9871,6 +10061,13 @@ status open
 
 \lang english
 login-controller
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:login-controller"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9893,8 +10090,18 @@ Structure Data Snippet Code
 \begin_layout Standard
 
 \lang english
-snippet code figure 4.13 below is a code for how to display the data structure
- in the view in the metadata repository application.
+snippet code figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:data-view"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code for how to display the data structure in the view in the metadata
+ repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9927,6 +10134,13 @@ status open
 
 \lang english
 data-view
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:data-view"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9942,8 +10156,18 @@ data-view
 \begin_layout Standard
 
 \lang english
-snippet code figure 4.14 below is a code for how to display the data structure
- in the controller in the metadata repository application.
+snippet code figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:data-controller"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code for how to display the data structure in the controller in the
+ metadata repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9976,6 +10200,13 @@ status open
 
 \lang english
 data-controller
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:data-controller"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10080,10 +10311,29 @@ Information about the data is provided in the form of Schema data, tables
 \lang english
 Each MR user will have different access to get information about definitive
  data is on BKN.
- Determination of the role's access via the menu as shown in Figure 4.15.
+ Determination of the role's access via the menu as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-Access-Role-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  Each system owner can be flexibly assigned access rights.
- Likewise each SIM owner can determine access rights as in Figure 4.16 Every
- MR user can see what SIMs are in the BKN environment.
+ Likewise each SIM owner can determine access rights as in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SIM-access-rights"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ Every MR user can see what SIMs are in the BKN environment.
  Presentation SIMs in the BKN are shown in Figure 4.17.
  In this way it is to find out and record which SIMs are managed in BKN
  can be more easily.
@@ -10119,6 +10369,13 @@ status open
 
 \lang english
 Table Access Role
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Table-Access-Role-1"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10161,6 +10418,13 @@ status open
 
 \lang english
 SIM access rights
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SIM-access-rights"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
