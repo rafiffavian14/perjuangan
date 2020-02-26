@@ -4596,8 +4596,6 @@ Terminate End Event
 \end_layout
 
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -4606,10 +4604,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi terninate end event.PNG
+	filename bpmn/17.PNG
 
 \end_inset
 
@@ -4617,16 +4613,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Terminate End Event
+Terminate End Event Notation
 \end_layout
 
 \end_inset
@@ -4642,17 +4634,13 @@ Terminate End Event
 \begin_layout Itemize
 
 \emph on
-\lang bahasa
 Cancel End Event
 \emph default
- digunakan dalam transaksi subproses dan menunjukkan bahwa transaksi harus
- dibatalkan.
- 
+ used in sub-transaction processes and indicates that the transaction must
+ be canceled.
 \end_layout
 
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -4661,10 +4649,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi cancel end event.PNG
+	filename bpmn/18.PNG
 
 \end_inset
 
@@ -4672,16 +4658,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Cancel End Event
+Cancel End Event Notation
 \end_layout
 
 \end_inset
@@ -4697,19 +4679,12 @@ Cancel End Event
 \begin_layout Itemize
 
 \emph on
-\lang bahasa
 Error End Event
 \emph default
- menunjukkan bahwa
-\emph on
- error
-\emph default
- dihasilkan ketika proses berakhir.
+ indicates that an error was generated when the process ended.
 \end_layout
 
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -4718,10 +4693,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi error end event.PNG
+	filename bpmn/19.PNG
 
 \end_inset
 
@@ -4729,16 +4702,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Error End Event
+Error End Event Notation
 \end_layout
 
 \end_inset
@@ -4754,15 +4723,12 @@ Error End Event
 \begin_layout Itemize
 
 \emph on
-\lang bahasa
 Multiple End Event
 \emph default
- menggambarkan proses yang dimulai dengan lebih dari satu pemicu berakhir.
+ describe processes that begin with more than one trigger ending.
 \end_layout
 
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -4771,10 +4737,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi multiple end event.PNG
+	filename bpmn/20.PNG
 
 \end_inset
 
@@ -4782,16 +4746,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Multiple End Event
+Multiple End Event Notation
 \end_layout
 
 \end_inset
@@ -4806,8 +4766,6 @@ Multiple End Event
 
 \end_deeper
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Separator plain
 \end_inset
 
@@ -4818,84 +4776,25 @@ Multiple End Event
 
 \series bold
 \emph on
-\lang bahasa
 Activity 
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-
-\emph on
-\lang bahasa
-Activity
-\emph default
- menyatakan suatu pekerjaan atau tugas yang dilakukan di proses bisnis pada
- sebuah organisasi.
- 
-\emph on
-Activity
-\emph default
- dapat berupa pekerjaan yang bersifat 
-\emph on
-atomic
-\emph default
- (tingkatan paling rendah yang dapat ditampilkan dalam diagram) maupun 
-\emph on
-compound
-\emph default
- (dapat ditelusuri hingga ke tingkatan lebih detail).
- Contoh tipe 
-\emph on
-Activity 
-\emph default
-yang bersifat 
-\emph on
-atomic
-\emph default
- adalah 
-\emph on
-Task
-\emph default
-.
- Contoh tipe 
-\emph on
-Activity
-\emph default
- yang bersifat compound adalah 
-\emph on
-Sub-Process
-\emph default
-.
- Perbedaan notasi antara sebuah 
-\emph on
-Task
-\emph default
- dan 
-\emph on
-Sub-Process
-\emph default
- adalah bahwa 
-\emph on
-Sub-Process
-\emph default
- mempunyai sebuah tanda plus yang diletakkan dibagian tengah bawah dari
- persegi panjang.
- Tanda plus ini memberikan penjelasan bahwa sebuah 
-\emph on
-Sub-Process
-\emph default
- dapat dibuka dan akan menampilkan bagian yang lebih rinci (Yudhanto,
-\emph on
- 
-\emph default
-2019).
- 
+Activity states a job or task performed in a business process in an organization.
+ Activity can be either atomic (the lowest level that can be displayed in
+ a diagram) or compound (can be traced to more detail).
+ Examples of Activity types that are atomic are Task.
+ An example of a compound Activity type is the Sub-Process.
+ The difference between notation between a Task and Sub-Process is that
+ the Sub-Process has a plus sign that is placed in the bottom center of
+ the rectangle.
+ This plus sign provides an explanation that a Sub-Process can be opened
+ and will feature a more detailed part (Yudhanto, 2019).
 \end_layout
 
 \end_deeper
 \begin_layout Standard
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -4904,10 +4803,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi activity.PNG
+	filename bpmn/21.PNG
 
 \end_inset
 
@@ -4915,16 +4812,13 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Activity
+\lang bahasa
+Activity Notation
 \end_layout
 
 \end_inset
@@ -4941,7 +4835,6 @@ Activity
 
 \series bold
 \emph on
-\lang bahasa
 Task
 \end_layout
 
@@ -4949,21 +4842,12 @@ Task
 \begin_layout Standard
 
 \emph on
-\lang bahasa
 Task 
 \emph default
-merupakan unit terkecil dari Activity yang terdapat di proses bisnis.
- 
-\emph on
-Task
-\emph default
- digunakan pada saat terdapat pekerjaan atau tugas di proses bisnis yang
- tidak dapat dipecah lagi menjadi unit yang lebih kecil.
- Terdapat beberapa tipe 
-\emph on
-Task
-\emph default
- yang disediakan di BPMN 2.0, antara lain:
+is the smallest unit of Activity found in the business process.
+ Tasks are used when there are jobs or tasks in a business process that
+ cannot be broken down into smaller units.
+ There are several types of Tasks provided in BPMN 2.0, including:
 \end_layout
 
 \end_deeper
@@ -4971,22 +4855,66 @@ Task
 
 \series bold
 \emph on
-\lang bahasa
 - None Task
 \series default
 \emph default
-: Sebuah 
+: A task that is general or does not have a definition, is usually often
+ used when developing a process in the initial phase.
+\end_layout
+
+\begin_layout Verse
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename bpmn/22.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
 \emph on
-Task
+None Task Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quote
+
+\series bold
+\emph on
+\lang bahasa
+-
+\lang american
+ Manual Task
+\series default
 \emph default
- yang bersifat umum atau tidak mempunyai definisi, biasanya sering digunakan
- ketika pengembangan proses di fase awal.
+: A task that is done manually without involving the automation mechanism
+ in the workflow or BPMN Engi-ne.
+ This type of task usually involves the role of humans.
  
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -4995,10 +4923,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi none task.PNG
+	filename bpmn/23.PNG
 
 \end_inset
 
@@ -5006,16 +4932,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-None Task
+Manual Task Notation
 \end_layout
 
 \end_inset
@@ -5032,101 +4954,15 @@ None Task
 
 \series bold
 \emph on
-\lang bahasa
-- Manual Task
-\series default
-\emph default
-: Sebuah Task yang dikerjakan secara manual tanpa melibatkan mekanisme otomasi
- di 
-\emph on
-workflow
-\emph default
- atau BPMN 
-\emph on
-Engine
-\emph default
-.
-\end_layout
-
-\begin_layout Verse
-
-\lang bahasa
-Task tipe ini biasanya melibatkan peranan manusia.
-\end_layout
-
-\begin_layout Verse
-
-\lang bahasa
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-
-\lang bahasa
-\begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi manual task.PNG
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\lang bahasa
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\lang bahasa
-Notasi 
-\emph on
-Manual Task
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Quote
-
-\series bold
-\emph on
-\lang bahasa
 - Receive Task
 \emph default
 :
 \series default
- Menunggu sebuah 
-\emph on
-message
-\emph default
- yang datang dari partisipan eksternal.
- Ketika 
-\emph on
-message
-\emph default
- datang, maka status 
-\emph on
-Task
-\emph default
- menjadi selesai.
- 
+ Waiting for a message coming from external participants.
+ When the message arrives, the Task status is complete.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5135,10 +4971,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi receive task.PNG
+	filename bpmn/24.PNG
 
 \end_inset
 
@@ -5146,16 +4980,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Receive Task
+Receive Task Notation
 \end_layout
 
 \end_inset
@@ -5172,20 +5002,13 @@ Receive Task
 
 \series bold
 \emph on
-\lang bahasa
 - Script Task
 \series default
 \emph default
-: Menjalankan 
-\emph on
-script 
-\emph default
-yang telah didefiniskan sebelumnya.
+: Run predefined scripts.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5194,10 +5017,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi script task.PNG
+	filename bpmn/25.PNG
 
 \end_inset
 
@@ -5205,16 +5026,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Script Task
+Script Task Notation
 \end_layout
 
 \end_inset
@@ -5231,20 +5048,13 @@ Script Task
 
 \series bold
 \emph on
-\lang bahasa
 - Send Task
 \series default
 \emph default
-: Mengirimkan sebuah 
-\emph on
-message
-\emph default
- kepada partisipan eksternal.
+: Send a message to external participants.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5253,10 +5063,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi send task.PNG
+	filename bpmn/26.PNG
 
 \end_inset
 
@@ -5264,16 +5072,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Send Task
+Send Task Notation
 \end_layout
 
 \end_inset
@@ -5290,21 +5094,14 @@ Send Task
 
 \series bold
 \emph on
-\lang bahasa
 - Service Task
 \series default
 \emph default
-: Menghubungkan ke beberapa layanan yang tersedia, biasanya bisa berupa
- sebuah 
-\emph on
-web service 
-\emph default
-atau aplikasi lainnya.
+: Connect to several available services, usually can be a web service or
+ another application.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5313,10 +5110,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi service task.PNG
+	filename bpmn/service.jpg
 
 \end_inset
 
@@ -5324,16 +5119,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Service Task
+Service Task Notation
 \end_layout
 
 \end_inset
@@ -5350,21 +5141,14 @@ Service Task
 
 \series bold
 \emph on
-\lang bahasa
 - Business Rule Task
 \series default
 \emph default
-: Menyediakan mekanisme masukan untuk diproses oleh 
-\emph on
-Business Rule Engine
-\emph default
- dan mengambil hasil dari proses tersebut.
- 
+: Provides an input mechanism to be processed by the Business Rule Engine
+ and retrieves the results of the process.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5373,10 +5157,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi business rule task.PNG
+	filename bpmn/28.PNG
 
 \end_inset
 
@@ -5384,16 +5166,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Business Rule Task
+Business Rule Task Notation
 \end_layout
 
 \end_inset
@@ -5410,21 +5188,13 @@ Business Rule Task
 
 \series bold
 \emph on
-\lang bahasa
 - User Task
 \series default
 \emph default
-: Melakukan pekerjaan yang melibatkan manusia terutama terkait dengan dokumen
- atau 
-\emph on
-form
-\emph default
-.
+: Doing work that involves humans mainly related to documents or forms.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5433,10 +5203,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi user task.PNG
+	filename bpmn/29.PNG
 
 \end_inset
 
@@ -5444,16 +5212,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-User Task
+User Task Notation
 \end_layout
 
 \end_inset
@@ -5470,59 +5234,28 @@ User Task
 
 \series bold
 \emph on
-\lang bahasa
 Sub-Process 
 \series default
 \emph default
-mewakili 
-\emph on
-Acitivity
-\emph default
- bertipe 
-\emph on
-compound
-\emph default
- atau gabungan.
- Maksud dari 
-\emph on
-compound
-\emph default
- adalah elemen 
-\emph on
-Sub-Process
-\emph default
- masih dapat dipecah- pecah lagi menjadi bagian yang lebih rinci.
- Terdapat dua cara untuk menggambarkan notasi diagram 
-\emph on
-Sub-Process
-\emph default
- ini, yaitu:
+represents compound type or compound Acitivity.
+ The meaning of the compound is that the Sub-Process element can still be
+ broken down into more detailed parts.
+ There are two ways to illustrate this Sub-Process diagram notation, namely.
 \end_layout
 
 \begin_layout Quote
 
 \series bold
 \emph on
-\lang bahasa
 - Collapsed
 \series default
 \emph default
 .
- Penggambaran notasi 
-\emph on
-Sub-Process
-\emph default
- seperti sebuah 
-\emph on
-Task
-\emph default
- (persegi panjang berujung tumpul) dengan penambahan sebuah tanda plus di
- bagian tengah sisi bawah.
+ Depicting Sub-Process notation is like a Task (a blunt-tipped rectangle)
+ with the addition of a plus sign in the middle of the lower side.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5531,10 +5264,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi collapsed sub-process.PNG
+	filename bpmn/30.PNG
 
 \end_inset
 
@@ -5542,16 +5273,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Collapsed Sub-Process
+Collapsed Sub-Process Notation
 \end_layout
 
 \end_inset
@@ -5568,19 +5295,14 @@ Collapsed Sub-Process
 
 \series bold
 \emph on
-\lang bahasa
 - Expanded
 \series default
 \emph default
 .
- Detail isi 
-\emph on
-Sub-Proces
-\emph default
-s dibuka sehingga elemen-elemen yang terdapat di dalamnya dapat diketahui
- semuanya.
- Pada penggambaran jenis ini, tanda plus di bagian tengah sisi bawah dihilangkan.
- 
+ Detail contents of the Sub-Process are opened so that the elements contained
+ in it can be known to all.
+ In this type of depiction, the plus sign in the middle of the lower side
+ is removed.
 \end_layout
 
 \begin_layout Verse

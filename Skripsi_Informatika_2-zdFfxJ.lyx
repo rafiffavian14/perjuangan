@@ -4903,30 +4903,18 @@ None Task Notation
 \series bold
 \emph on
 \lang bahasa
-- Manual Task
+-
+\lang american
+ Manual Task
 \series default
 \emph default
-: Sebuah Task yang dikerjakan secara manual tanpa melibatkan mekanisme otomasi
- di 
-\emph on
-workflow
-\emph default
- atau BPMN 
-\emph on
-Engine
-\emph default
-.
+: A task that is done manually without involving the automation mechanism
+ in the workflow or BPMN Engi-ne.
+ This type of task usually involves the role of humans.
+ 
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
-Task tipe ini biasanya melibatkan peranan manusia.
-\end_layout
-
-\begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -4935,10 +4923,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi manual task.PNG
+	filename bpmn/23.PNG
 
 \end_inset
 
@@ -4946,16 +4932,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Manual Task
+Manual Task Notation
 \end_layout
 
 \end_inset
@@ -4972,31 +4954,15 @@ Manual Task
 
 \series bold
 \emph on
-\lang bahasa
 - Receive Task
 \emph default
 :
 \series default
- Menunggu sebuah 
-\emph on
-message
-\emph default
- yang datang dari partisipan eksternal.
- Ketika 
-\emph on
-message
-\emph default
- datang, maka status 
-\emph on
-Task
-\emph default
- menjadi selesai.
- 
+ Waiting for a message coming from external participants.
+ When the message arrives, the Task status is complete.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5005,10 +4971,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi receive task.PNG
+	filename bpmn/24.PNG
 
 \end_inset
 
@@ -5016,16 +4980,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Receive Task
+Receive Task Notation
 \end_layout
 
 \end_inset
@@ -5042,20 +5002,13 @@ Receive Task
 
 \series bold
 \emph on
-\lang bahasa
 - Script Task
 \series default
 \emph default
-: Menjalankan 
-\emph on
-script 
-\emph default
-yang telah didefiniskan sebelumnya.
+: Run predefined scripts.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5064,10 +5017,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi script task.PNG
+	filename bpmn/25.PNG
 
 \end_inset
 
@@ -5075,16 +5026,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Script Task
+Script Task Notation
 \end_layout
 
 \end_inset
@@ -5101,20 +5048,13 @@ Script Task
 
 \series bold
 \emph on
-\lang bahasa
 - Send Task
 \series default
 \emph default
-: Mengirimkan sebuah 
-\emph on
-message
-\emph default
- kepada partisipan eksternal.
+: Send a message to external participants.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5123,10 +5063,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi send task.PNG
+	filename bpmn/26.PNG
 
 \end_inset
 
@@ -5134,16 +5072,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Send Task
+Send Task Notation
 \end_layout
 
 \end_inset
@@ -5160,21 +5094,14 @@ Send Task
 
 \series bold
 \emph on
-\lang bahasa
 - Service Task
 \series default
 \emph default
-: Menghubungkan ke beberapa layanan yang tersedia, biasanya bisa berupa
- sebuah 
-\emph on
-web service 
-\emph default
-atau aplikasi lainnya.
+: Connect to several available services, usually can be a web service or
+ another application.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5183,10 +5110,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi service task.PNG
+	filename bpmn/service.jpg
 
 \end_inset
 
@@ -5194,16 +5119,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Service Task
+Service Task Notation
 \end_layout
 
 \end_inset
@@ -5220,21 +5141,14 @@ Service Task
 
 \series bold
 \emph on
-\lang bahasa
 - Business Rule Task
 \series default
 \emph default
-: Menyediakan mekanisme masukan untuk diproses oleh 
-\emph on
-Business Rule Engine
-\emph default
- dan mengambil hasil dari proses tersebut.
- 
+: Provides an input mechanism to be processed by the Business Rule Engine
+ and retrieves the results of the process.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5243,10 +5157,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi business rule task.PNG
+	filename bpmn/28.PNG
 
 \end_inset
 
@@ -5254,16 +5166,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Business Rule Task
+Business Rule Task Notation
 \end_layout
 
 \end_inset
@@ -5280,21 +5188,13 @@ Business Rule Task
 
 \series bold
 \emph on
-\lang bahasa
 - User Task
 \series default
 \emph default
-: Melakukan pekerjaan yang melibatkan manusia terutama terkait dengan dokumen
- atau 
-\emph on
-form
-\emph default
-.
+: Doing work that involves humans mainly related to documents or forms.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5303,10 +5203,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi user task.PNG
+	filename bpmn/29.PNG
 
 \end_inset
 
@@ -5314,16 +5212,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-User Task
+User Task Notation
 \end_layout
 
 \end_inset
@@ -5340,59 +5234,28 @@ User Task
 
 \series bold
 \emph on
-\lang bahasa
 Sub-Process 
 \series default
 \emph default
-mewakili 
-\emph on
-Acitivity
-\emph default
- bertipe 
-\emph on
-compound
-\emph default
- atau gabungan.
- Maksud dari 
-\emph on
-compound
-\emph default
- adalah elemen 
-\emph on
-Sub-Process
-\emph default
- masih dapat dipecah- pecah lagi menjadi bagian yang lebih rinci.
- Terdapat dua cara untuk menggambarkan notasi diagram 
-\emph on
-Sub-Process
-\emph default
- ini, yaitu:
+represents compound type or compound Acitivity.
+ The meaning of the compound is that the Sub-Process element can still be
+ broken down into more detailed parts.
+ There are two ways to illustrate this Sub-Process diagram notation, namely.
 \end_layout
 
 \begin_layout Quote
 
 \series bold
 \emph on
-\lang bahasa
 - Collapsed
 \series default
 \emph default
 .
- Penggambaran notasi 
-\emph on
-Sub-Process
-\emph default
- seperti sebuah 
-\emph on
-Task
-\emph default
- (persegi panjang berujung tumpul) dengan penambahan sebuah tanda plus di
- bagian tengah sisi bawah.
+ Depicting Sub-Process notation is like a Task (a blunt-tipped rectangle)
+ with the addition of a plus sign in the middle of the lower side.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5401,10 +5264,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi collapsed sub-process.PNG
+	filename bpmn/30.PNG
 
 \end_inset
 
@@ -5412,16 +5273,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Collapsed Sub-Process
+Collapsed Sub-Process Notation
 \end_layout
 
 \end_inset
@@ -5438,24 +5295,17 @@ Collapsed Sub-Process
 
 \series bold
 \emph on
-\lang bahasa
 - Expanded
 \series default
 \emph default
 .
- Detail isi 
-\emph on
-Sub-Proces
-\emph default
-s dibuka sehingga elemen-elemen yang terdapat di dalamnya dapat diketahui
- semuanya.
- Pada penggambaran jenis ini, tanda plus di bagian tengah sisi bawah dihilangkan.
- 
+ Detail contents of the Sub-Process are opened so that the elements contained
+ in it can be known to all.
+ In this type of depiction, the plus sign in the middle of the lower side
+ is removed.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5464,12 +5314,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi expanded sub-process.PNG
-	lyxscale 30
-	width 70col%
+	filename bpmn/31.PNG
 
 \end_inset
 
@@ -5477,16 +5323,10 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang bahasa
-Notasi 
-\emph on
-Expanded Sub-Process
+Expanded Sub-Process Notation
 \end_layout
 
 \end_inset
@@ -5503,24 +5343,15 @@ Expanded Sub-Process
 
 \series bold
 \emph on
-\lang bahasa
 Gateway
 \end_layout
 
 \begin_deeper
 \begin_layout Standard
-
-\emph on
-\lang bahasa
-Gateway
-\emph default
- merupakan salah satu elemen BPMN yang digunakan untuk mengatur bagaimana
- aliran proses berlangsung, baik divergen atau pun konvergen.
- Jika tidak ada aliran proses yang ingin dikendalikan, maka penggunaan 
-\emph on
-Gateway
-\emph default
- tidak diperlukan.
+Gateway is one of the elements of BPMN that is used to regulate how the
+ process flow takes place, whether divergent or convergent.
+ If there is no process flow to be controlled, the use of the Gateway is
+ not required.
 \end_layout
 
 \end_deeper
@@ -5528,35 +5359,17 @@ Gateway
 
 \series bold
 \emph on
-\lang bahasa
 - Exclusive Gateway
 \series default
 \emph default
- digunakan untuk memilih salah satu kondisi yang benar sesuai dengan syarat-syar
-at yang ditetapkan.
-
-\emph on
- Exclusive Gateway
-\emph default
- ini bersifat menyebar atau bercabang.
- Secara sederhana, perilaku 
-\emph on
-Exclusive Gateway
-\emph default
- ini hampir sama dengan 
-\emph on
-Decision
-\emph default
- pada 
-\emph on
-flowchar
-\emph default
-t yang bisa mempunyai banyak pilihan, bukan hanya dua pilihan.
+ used to choose one of the correct conditions in accordance with the conditions
+ specified.
+ This Gateway-ve exclusion is spread or branched.
+ To put it simply, the behavior of Exclusive Gateway is almost the same
+ as Decision on a flowchart that can have many choices, not just two choices.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5565,12 +5378,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi exclusive gateway.PNG
-	lyxscale 30
-	width 70col%
+	filename bpmn/32.PNG
 
 \end_inset
 
@@ -5578,16 +5387,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Exclusive Gateway
+Exclusive Gateway Notation
 \end_layout
 
 \end_inset
@@ -5604,50 +5409,20 @@ Exclusive Gateway
 
 \series bold
 \emph on
-\lang bahasa
 - Event-Based Gateway
 \series default
 \emph default
- digunakan untuk memecah aliran proses yang perilakunya hampir sama dengan
- 
-\emph on
-Inclusive Gateway
-\emph default
-, perbedannya adalah tujuan aliran proses dari percabangan 
-\emph on
-Event-Based Gateway 
-\emph default
-ini berdasarkan pada 
-\emph on
-Event
-\emph default
-, bukan kondisi ekspresi data.
- 
-\emph on
-Gateway
-\emph default
- ini dapat mengontrol satu atau beberapa 
-\emph on
-Event.
-
-\emph default
- 
-\emph on
-Intermediate Event
-\emph default
- yang valid pada
-\emph on
- Event-Based Gateway
-\emph default
- yaitu 
-\emph on
-Message, Timer, Conditional, Signal.
+ used to break up the process flow whose behavior is almost the same as
+ the Inclusive Gateway, the difference is the purpose of the process flow
+ from the Event-Based Gateway branching based on the Event, not the condition
+ of data expression.
+ This gateway can control one or several Events.
+ Valid Intermeate Events on Event-Based Gateways are Message, Timer, Conditional
+, Signal.
  
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5656,12 +5431,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi event-based gateway.PNG
-	lyxscale 30
-	width 70col%
+	filename bpmn/33.PNG
 
 \end_inset
 
@@ -5669,16 +5440,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Event-Based Gateway
+Event-Based Gateway Notation
 \end_layout
 
 \end_inset
@@ -5695,26 +5462,15 @@ Event-Based Gateway
 
 \series bold
 \emph on
-\lang bahasa
 - Parallel Event-Based Gateway
 \series default
 \emph default
-.
-\emph on
-Gateway
-\emph default
- ini mirip dengan gateway paralel.
- Hal ini memungkinkan beberapa proses terjadi pada saat bersamaan, namun
- tidak seperti 
-\emph on
-gateway parallel
-\emph default
-, proses bergantung pada peristiwa.
+.This gateway is similar to a parallel gateway.
+ This allows several processes to occur at the same time, but unlike parallel
+ gateways, processes depend on events.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5723,12 +5479,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi parallel event based gateway.PNG
-	lyxscale 30
-	width 70col%
+	filename bpmn/asal.jpg
 
 \end_inset
 
@@ -5736,16 +5488,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Parallel Event-Based Gateway
+Parallel Event-Based Gateway Notation
 \end_layout
 
 \end_inset
@@ -5762,46 +5510,20 @@ Parallel Event-Based Gateway
 
 \series bold
 \emph on
-\lang bahasa
 - Inclusive Gateway 
 \series default
 \emph default
-bersifat divergen digunakan untuk memilih kondisi yang benar sesuai syarat-syara
-t yang ditetapkan, perbedaan dengan 
-\emph on
-Exclusive Gateway
-\emph default
- adalah dalam 
-\emph on
-Inclusive Gateway
-\emph default
- kondisi yang dipilih bisa lebih dari satu kondisi.
- Secara sederhana, perilaku 
-\emph on
-Inclusive Gateway
-\emph default
- ini hampir sama dengan 
-\emph on
-decision
-\emph default
- akan tetapi ada lebih dari satu kemungkinan kondisi atau aliran proses
- yang dipilih.
- 
-\emph on
-Inclusive Gateway
-\emph default
- yang bersifat konvergen digunakan untuk menyatukan atau menggabungkan aliran
- proses yang berasal dari pecahan aliran proses 
-\emph on
-Inclusive Gateway
-\emph default
- sebelumnya.
- 
+divergent is used to choose the right conditions according to the conditions
+ specified, the difference with Exclusive Gateway is in the Inclusive Gateway
+ the condition chosen can be more than one condition.
+ In simple terms, the behavior of the Inclusive Gateway is almost the same
+ as the decision but there is more than one possible condition or process
+ flow chosen.
+ Convergent Inclusive Gateways are used to unify or combine process streams
+ originating from fragments of the earlier Inclusive Gateway process streams.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5810,12 +5532,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi inclusive gateway.PNG
-	lyxscale 30
-	width 70col%
+	filename bpmn/35.PNG
 
 \end_inset
 
@@ -5823,16 +5541,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Inclusive Gateway
+Inclusive Gateway Notation
 \end_layout
 
 \end_inset
@@ -5849,21 +5563,14 @@ Inclusive Gateway
 
 \series bold
 \emph on
-\lang bahasa
 - Complex Gateway
 \series default
 \emph default
- digunakan untuk mengontrol aliran proses yang tujuan alirannya memiliki
- kondisi yang kompleks yang mana tidak dapat ditangani oleh tipe 
-\emph on
-gateway
-\emph default
- yang lainnya.
+ used to control the flow of processes whose purpose is to have complex
+ conditions which cannot be handled by other types of gateways.
 \end_layout
 
 \begin_layout Verse
-
-\lang bahasa
 \begin_inset Float figure
 placement H
 wide false
@@ -5872,12 +5579,8 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang bahasa
 \begin_inset Graphics
-	filename C:/Users/ACER/Downloads/teori bpmn/notasi complex gateway.PNG
-	lyxscale 35
-	width 70col%
+	filename bpmn/36.PNG
 
 \end_inset
 
@@ -5885,16 +5588,12 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang bahasa
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
-\lang bahasa
-Notasi 
 \emph on
-Complex Gateway
+Complex Gateway Notation
 \end_layout
 
 \end_inset
@@ -5907,7 +5606,7 @@ Complex Gateway
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 
 \emph on
 \lang bahasa
