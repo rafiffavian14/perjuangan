@@ -7,6 +7,7 @@
 \textclass book
 \begin_preamble
 %% \renewcommand{\chapter}[1]{\chapter[#1]{\centering #1}}
+\usepackage{placeins}
 \usepackage{titlesec}
 \usepackage{graphicx}
 \titleformat{\chapter}[display]
@@ -3428,25 +3429,6 @@ Distributed and Heterogen System
 \end_layout
 
 \begin_layout Standard
-One thing that needs to be considered in interoperability is that there
- are various data managers, both within BKN and outside BKN.
- For this reason, there is a need to establish a data document.
- As shown in Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Walidata-on-interoperability"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- In this way the consistency of data between agencies can be maintained,
- for example a diploma owned by someone should
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -3454,6 +3436,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/bab 2/interoperabilitas.PNG
 	scale 80
@@ -3487,11 +3482,40 @@ name "fig:Walidata-on-interoperability"
 \end_inset
 
 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FloatBarrier
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-it depends on something in the PD DIKTI (Kemdikbud) because it is indeed
- the institution that plays the role of data officer for the level of education.
+One thing that needs to be considered in interoperability is that there
+ are various data managers, both within BKN and outside BKN.
+ For this reason, there is a need to establish a data document.
+ As shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Walidata-on-interoperability"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ In this way the consistency of data between agencies can be maintained,
+ for example a diploma owned by someone should it depends on something in
+ the PD DIKTI (Kemdikbud) because it is indeed the institution that plays
+ the role of data officer for the level of education.
  The use of heterogeneous information systems requires an information system
  to be interoperable.
  It forms an integrated system and can be used by a variety of organizations.
@@ -3582,6 +3606,19 @@ status open
 
 \begin_layout Labeling
 \labelwidthstring 00.00.0000
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/bab 2/jenis_integrasi.PNG
 	lyxscale 70
@@ -3593,6 +3630,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
@@ -3856,6 +3894,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/1.PNG
 	scale 90
@@ -3893,6 +3944,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/2.PNG
 
@@ -3934,6 +3998,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/3.PNG
 
@@ -3975,6 +4052,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/4.PNG
 
@@ -4016,6 +4106,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/5.PNG
 
@@ -4057,6 +4160,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/6.png
 
@@ -4119,6 +4235,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/7.PNG
 
@@ -4174,6 +4303,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/8.PNG
 
@@ -4219,6 +4361,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/9.PNG
 
@@ -4269,6 +4424,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/10.PNG
 
@@ -4318,6 +4486,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/11.png
 
@@ -4365,6 +4546,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/12.PNG
 
@@ -4410,6 +4604,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/13.PNG
 
@@ -4468,6 +4675,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/14.PNG
 
@@ -4513,6 +4733,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/15.PNG
 
@@ -4558,6 +4791,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/16.PNG
 
@@ -4604,6 +4850,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/17.PNG
 
@@ -4649,6 +4908,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/18.PNG
 
@@ -4693,6 +4965,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/19.PNG
 
@@ -4737,6 +5022,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/20.PNG
 
@@ -4803,6 +5101,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/21.PNG
 
@@ -4871,6 +5182,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/22.PNG
 
@@ -4923,6 +5247,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/23.PNG
 
@@ -4971,6 +5308,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/24.PNG
 
@@ -5017,6 +5367,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/25.PNG
 
@@ -5063,6 +5426,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/26.PNG
 
@@ -5110,6 +5486,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/service.jpg
 
@@ -5157,6 +5546,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/28.PNG
 
@@ -5203,6 +5605,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/29.PNG
 
@@ -5264,6 +5679,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/30.PNG
 
@@ -5314,6 +5742,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/31.PNG
 
@@ -5378,6 +5819,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/32.PNG
 
@@ -5431,6 +5885,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/33.PNG
 
@@ -5479,6 +5946,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/asal.jpg
 
@@ -5532,6 +6012,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/35.PNG
 
@@ -5579,6 +6072,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/36.PNG
 
@@ -5647,6 +6153,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/37.PNG
 	rotateOrigin center
@@ -5697,6 +6216,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/38.PNG
 	rotateOrigin center
@@ -5744,6 +6276,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/39.PNG
 	rotateOrigin center
@@ -5798,6 +6343,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/40.PNG
 	rotateOrigin center
@@ -5850,6 +6408,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/41.PNG
 	rotateOrigin center
@@ -5919,6 +6490,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/42.PNG
 	rotateOrigin center
@@ -5971,6 +6555,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/43.PNG
 	rotateOrigin center
@@ -6043,6 +6640,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/44.PNG
 	rotateOrigin center
@@ -6095,6 +6705,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/45.PNG
 
@@ -6145,6 +6768,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename bpmn/46.PNG
 
@@ -6498,6 +7134,28 @@ noprefix "false"
 wide false
 sideways true
 status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Table-Access-Role"
+
+\end_inset
+
+Table Access Role
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -8331,28 +8989,6 @@ R
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\lang english
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-
-\lang english
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Table-Access-Role"
-
-\end_inset
-
-Table Access Role
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \end_inset
 
 
@@ -8389,6 +9025,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tamplate skripsi/use-case gambar/use-case.jpg
 	lyxscale 50
@@ -8551,6 +9200,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/bpmn-english/PSO-01.02 Perencanaan Pengadopsian Sistem.png
 	lyxscale 30
@@ -8644,6 +9306,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/user.png
 	scale 60
@@ -8687,6 +9362,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/role.png
 	scale 60
@@ -8723,6 +9411,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/sim.png
 	scale 60
@@ -8759,6 +9460,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/database.png
 	scale 60
@@ -8795,6 +9509,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/table.png
 	scale 60
@@ -8831,6 +9558,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/isi_table.png
 	scale 60
@@ -8867,6 +9607,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/download.png
 	scale 60
@@ -8903,6 +9656,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/sim_roles.png
 	scale 60
@@ -8939,6 +9705,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/database_roles.png
 	scale 60
@@ -8975,6 +9754,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/file-xsd/meta/png/table_roles.png
 	scale 60
@@ -9015,6 +9807,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tamplate skripsi/idef/idef0.PNG
 	scale 50
@@ -9113,6 +9918,19 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tamplate skripsi/user-flow/user-flow-english.jpg
 	scale 50
@@ -9203,8 +10021,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/login.PNG
 	width 75col%
@@ -9277,8 +10108,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/dashboard-user.PNG
 	width 75col%
@@ -9351,8 +10195,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/access_role.PNG
 	width 75col%
@@ -9401,8 +10258,18 @@ SIM Page
 \begin_layout Standard
 
 \lang english
-The picture below is a SIM page design, where there are lists of SIM names
- in the repository metadata application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Sim-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a SIM page design, where there are lists of SIM names in the repository
+ metadata application.
 \end_layout
 
 \begin_layout Standard
@@ -9415,8 +10282,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-sim.PNG
 	width 75col%
@@ -9435,6 +10315,13 @@ status open
 
 \lang english
 Sim Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sim-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9458,8 +10345,18 @@ Database Page
 \begin_layout Standard
 
 \lang english
-The picture below is a database page design, where there are lists of database
- names in the metadata repository application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Database-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a database page design, where there are lists of database names in the
+ metadata repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9472,8 +10369,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-database.PNG
 	width 75col%
@@ -9492,6 +10402,13 @@ status open
 
 \lang english
 Database Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Database-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9515,8 +10432,18 @@ Table Page
 \begin_layout Standard
 
 \lang english
-The picture below is a table page design, where there are lists of table
- names in the metadata repository application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a table page design, where there are lists of table names in the metadata
+ repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9529,8 +10456,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-table.PNG
 	width 75col%
@@ -9549,6 +10489,13 @@ status open
 
 \lang english
 Table Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Table-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9572,8 +10519,18 @@ Access Page
 \begin_layout Standard
 
 \lang english
-The picture below is an access table page design, where the admin can set
- any page that can be seen by the user in the repository metadata application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Access-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is an access table page design, where the admin can set any page that can
+ be seen by the user in the repository metadata application.
 \end_layout
 
 \begin_layout Standard
@@ -9586,8 +10543,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/sim_access.PNG
 	width 75col%
@@ -9606,6 +10576,13 @@ status open
 
 \lang english
 Access Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Access-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9629,9 +10606,19 @@ Data Structure Pages
 \begin_layout Standard
 
 \lang english
-The picture below is the design of the data structure table page that the
- user can see and check, besides that the user can also download the data
- structure by clicking the download button.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Data-Structure-Page"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design of the data structure table page that the user can see and
+ check, besides that the user can also download the data structure by clicking
+ the download button.
 \end_layout
 
 \begin_layout Standard
@@ -9644,8 +10631,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/download-table.PNG
 	width 75col%
@@ -9664,6 +10664,13 @@ status open
 
 \lang english
 Data Structure Page
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Data-Structure-Page"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9687,8 +10694,18 @@ File upload page
 \begin_layout Standard
 
 \lang english
-below is the design page for uploading data structure files by the system
- owner to the metadata repository application.
+The Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:File-Upload"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is the design page for uploading data structure files by the system owner
+ to the metadata repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9701,8 +10718,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/upload-file.PNG
 	width 75col%
@@ -9721,6 +10751,13 @@ status open
 
 \lang english
 File Upload
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:File-Upload"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9769,7 +10806,17 @@ to create a repository metadata application, there are several technologies
  from the programming language the author uses php, css, and javascript,
  then from the framework the author uses laravel, and for the database the
  author uses PostgreeSql.
- for more details, as shown in Figure 4.10 below.
+ for more details, as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:technology"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -9782,8 +10829,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/tech.jpg
 	width 75col%
@@ -9802,6 +10862,13 @@ status open
 
 \lang english
 technology
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:technology"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9832,8 +10899,18 @@ Login Snippet Code
 \begin_layout Standard
 
 \lang english
-snippet code Figure 4.11 below is a code from the login page in the view
- section of the metadata repository application.
+snippet code Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:login-view"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code from the login page in the view section of the metadata repository
+ application.
 \end_layout
 
 \begin_layout Standard
@@ -9846,8 +10923,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/login-view.PNG
 	width 75col%
@@ -9866,6 +10956,13 @@ status open
 
 \lang english
 login-view
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:login-view"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9881,8 +10978,18 @@ login-view
 \begin_layout Standard
 
 \lang english
-snippet code Figure 4.12 below is a code from the login page in the Controller
- section of the metadata repository application.
+snippet code Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:login-controller"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code from the login page in the Controller section of the metadata
+ repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9895,8 +11002,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/login-controller.PNG
 	width 75col%
@@ -9915,6 +11035,13 @@ status open
 
 \lang english
 login-controller
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:login-controller"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9937,8 +11064,18 @@ Structure Data Snippet Code
 \begin_layout Standard
 
 \lang english
-snippet code figure 4.13 below is a code for how to display the data structure
- in the view in the metadata repository application.
+snippet code figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:data-view"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code for how to display the data structure in the view in the metadata
+ repository application.
 \end_layout
 
 \begin_layout Standard
@@ -9951,8 +11088,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/data-view.PNG
 	width 75col%
@@ -9971,6 +11121,13 @@ status open
 
 \lang english
 data-view
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:data-view"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -9986,8 +11143,18 @@ data-view
 \begin_layout Standard
 
 \lang english
-snippet code figure 4.14 below is a code for how to display the data structure
- in the controller in the metadata repository application.
+snippet code figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:data-controller"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is a code for how to display the data structure in the controller in the
+ metadata repository application.
 \end_layout
 
 \begin_layout Standard
@@ -10000,8 +11167,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/data-controller.PNG
 	width 75col%
@@ -10020,6 +11200,13 @@ status open
 
 \lang english
 data-controller
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:data-controller"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10124,10 +11311,29 @@ Information about the data is provided in the form of Schema data, tables
 \lang english
 Each MR user will have different access to get information about definitive
  data is on BKN.
- Determination of the role's access via the menu as shown in Figure 4.15.
+ Determination of the role's access via the menu as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Table-Access-Role-1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  Each system owner can be flexibly assigned access rights.
- Likewise each SIM owner can determine access rights as in Figure 4.16 Every
- MR user can see what SIMs are in the BKN environment.
+ Likewise each SIM owner can determine access rights as in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SIM-access-rights"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ Every MR user can see what SIMs are in the BKN environment.
  Presentation SIMs in the BKN are shown in Figure 4.17.
  In this way it is to find out and record which SIMs are managed in BKN
  can be more easily.
@@ -10143,8 +11349,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/access_role.PNG
 	scale 40
@@ -10163,6 +11382,13 @@ status open
 
 \lang english
 Table Access Role
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Table-Access-Role-1"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10185,8 +11411,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/sim_access.PNG
 	scale 40
@@ -10205,6 +11444,13 @@ status open
 
 \lang english
 SIM access rights
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SIM-access-rights"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -10227,8 +11473,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/halaman-sim.PNG
 	scale 40
@@ -10269,8 +11528,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-database.PNG
 	scale 40
@@ -10340,8 +11612,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/table_access.PNG
 	scale 40
@@ -10382,8 +11667,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/halaman-table.PNG
 	scale 40
@@ -10424,8 +11722,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-sim.PNG
 	scale 40
@@ -10466,8 +11777,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/database_access.PNG
 	scale 40
@@ -10508,8 +11832,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-table.PNG
 	scale 40
@@ -10550,8 +11887,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/upload-file.PNG
 	scale 40
@@ -10624,8 +11974,21 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
 
 \lang english
+
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/download-table.PNG
 	scale 40
