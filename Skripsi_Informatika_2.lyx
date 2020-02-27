@@ -10031,16 +10031,10 @@ name "fig:Login"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 User Page
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10056,8 +10050,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10078,8 +10070,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/dashboard-user.PNG
 	width 75col%
@@ -10090,13 +10080,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Dashboard table user
 \begin_inset CommandInset label
 LatexCommand label
@@ -10118,16 +10104,10 @@ name "fig:Dashboard-table-user"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Role Page
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10143,8 +10123,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10165,8 +10143,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/access_role.PNG
 	width 75col%
@@ -10177,13 +10153,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Dashboard table role
 \begin_inset CommandInset label
 LatexCommand label
@@ -10205,16 +10177,10 @@ name "fig:Dashboard-table-role"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 SIM Page
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10230,8 +10196,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10252,8 +10216,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-sim.PNG
 	width 75col%
@@ -10264,13 +10226,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Sim Page
 \begin_inset CommandInset label
 LatexCommand label
@@ -10292,16 +10250,10 @@ name "fig:Sim-Page"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Database Page
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10317,8 +10269,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10339,8 +10289,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-database.PNG
 	width 75col%
@@ -10351,13 +10299,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Database Page
 \begin_inset CommandInset label
 LatexCommand label
@@ -10379,16 +10323,10 @@ name "fig:Database-Page"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Table Page
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10404,8 +10342,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10426,8 +10362,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/halaman-table.PNG
 	width 75col%
@@ -10438,13 +10372,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Table Page
 \begin_inset CommandInset label
 LatexCommand label
@@ -10466,16 +10396,10 @@ name "fig:Table-Page"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Access Page
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10491,8 +10415,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10513,8 +10435,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/sim_access.PNG
 	width 75col%
@@ -10525,13 +10445,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Access Page
 \begin_inset CommandInset label
 LatexCommand label
@@ -10553,16 +10469,10 @@ name "fig:Access-Page"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Data Structure Pages
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10579,8 +10489,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10601,8 +10509,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/download-table.PNG
 	width 75col%
@@ -10613,13 +10519,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Data Structure Page
 \begin_inset CommandInset label
 LatexCommand label
@@ -10641,16 +10543,10 @@ name "fig:Data-Structure-Page"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 File upload page
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 The Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10666,8 +10562,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10688,8 +10582,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/upload-file.PNG
 	width 75col%
@@ -10700,13 +10592,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 File Upload
 \begin_inset CommandInset label
 LatexCommand label
@@ -10733,31 +10621,11 @@ name "fig:File-Upload"
 Technology implementation
 \end_layout
 
-\begin_layout Standard
-
-\lang english
-Jelaskan Layering sistem, dan Framework yang digunakan, serta 
-\begin_inset Quotes eld
-\end_inset
-
-snippet
-\begin_inset Quotes erd
-\end_inset
-
- code yang penting
-\end_layout
-
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Layering System
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 to create a repository metadata application, there are several technologies
  used by the author, namely, from the server side the author uses apache,
  from the programming language the author uses php, css, and javascript,
@@ -10777,8 +10645,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10799,8 +10665,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/tech.jpg
 	width 75col%
@@ -10811,13 +10675,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 technology
 \begin_inset CommandInset label
 LatexCommand label
@@ -10839,23 +10699,14 @@ name "fig:technology"
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Snippet Code
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
-\lang english
 Login Snippet Code
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 snippet code Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10871,8 +10722,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10893,8 +10742,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/login-view.PNG
 	width 75col%
@@ -10905,13 +10752,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 login-view
 \begin_inset CommandInset label
 LatexCommand label
@@ -10933,8 +10776,6 @@ name "fig:login-view"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 snippet code Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -10950,8 +10791,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -10972,8 +10811,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/login-controller.PNG
 	width 75col%
@@ -10984,13 +10821,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 login-controller
 \begin_inset CommandInset label
 LatexCommand label
@@ -11012,15 +10845,10 @@ name "fig:login-controller"
 \end_layout
 
 \begin_layout Subsubsection
-
-\series bold
-\lang english
 Structure Data Snippet Code
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 snippet code figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -11036,8 +10864,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11058,8 +10884,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/data-view.PNG
 	width 75col%
@@ -11070,13 +10894,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 data-view
 \begin_inset CommandInset label
 LatexCommand label
@@ -11098,8 +10918,6 @@ name "fig:data-view"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 snippet code figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -11115,8 +10933,6 @@ noprefix "false"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11137,8 +10953,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/system-design/TECHNOLOGY/data-controller.PNG
 	width 75col%
@@ -11149,13 +10963,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 data-controller
 \begin_inset CommandInset label
 LatexCommand label
@@ -11177,28 +10987,14 @@ name "fig:data-controller"
 \end_layout
 
 \begin_layout Section
-
-\lang english
 Task and Interaction Implementation
 \end_layout
 
-\begin_layout Standard
-
-\lang english
-Jelaskan Task yang ada dan menu yang terkait dan flow dari screen shot nya
-\end_layout
-
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 Implementation of the Metadata Repository
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 To enable a better integration process, a Metadata Repository is implemented
  in the BKN environment.
  This Metadata Repository has the function of storing data definitions and
@@ -11208,64 +11004,46 @@ To enable a better integration process, a Metadata Repository is implemented
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
 Every information system manager in the BKN environment will include information
  about data managed into the system.
  
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
 Each system manager will enter information about, 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\lang english
 SIM managed
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
 Database used for each SIM 
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
 Tables in the database 
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
 The data in the table, along with information about the data, for example,
  type data, examples and so on.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-
-\lang english
 Each party that will access data for example for interoperability or data
  integration, then you can look to this Metadata Repository related to data
  definitions and information about that data
 \end_layout
 
 \begin_layout Itemize
-
-\lang english
 Information about the data is provided in the form of Schema data, tables
  and graphical descriptions.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Each MR user will have different access to get information about definitive
  data is on BKN.
  Determination of the role's access via the menu as shown in Figure 
@@ -11291,14 +11069,22 @@ noprefix "false"
 \end_inset
 
  Every MR user can see what SIMs are in the BKN environment.
- Presentation SIMs in the BKN are shown in Figure 4.17.
+ Presentation SIMs in the BKN are shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Show-SIM-menu"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  In this way it is to find out and record which SIMs are managed in BKN
  can be more easily.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11319,8 +11105,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/access_role.PNG
 	scale 40
@@ -11331,13 +11115,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Table Access Role
 \begin_inset CommandInset label
 LatexCommand label
@@ -11359,8 +11139,6 @@ name "fig:Table-Access-Role-1"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11381,8 +11159,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/sim_access.PNG
 	scale 40
@@ -11393,13 +11169,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 SIM access rights
 \begin_inset CommandInset label
 LatexCommand label
@@ -11421,8 +11193,6 @@ name "fig:SIM-access-rights"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11443,8 +11213,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/halaman-sim.PNG
 	scale 40
@@ -11455,14 +11223,19 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
 
 \lang english
 Show SIM menu
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Show-SIM-menu"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -11476,8 +11249,6 @@ Show SIM menu
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11498,8 +11269,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-database.PNG
 	scale 40
@@ -11510,13 +11279,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Form Create Database
 \end_layout
 
@@ -11531,37 +11296,56 @@ Form Create Database
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 with this if there are parties who need certain data, then the data is easily
  known on what SIM.
 \end_layout
 
-\begin_layout Subsection*
-
-\series bold
-\size large
-\lang english
-4.3.2 How to register with MR
+\begin_layout Subsection
+How to register with MR
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 When a work unit makes or has a SIM and will register with the MR This is
- done by using the SIM menu creation as shown in Figure 4.2.1.
+ done by using the SIM menu creation as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Register-a-new"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  Written name SIM related.
  After a SIM is registered, it is necessary to register the databases on
  the SIM.
- For this, the menu is like the one in Figure 4.2.2 After the database is
- registered it needs to be set which party may know that there is The database
- is in the BKN environment.
- For this reason, the menu in Figure 4.2.3 is applied.
+ For this, the menu is like the one in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:database-permission-table"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ After the database is registered it needs to be set which party may know
+ that there is The database is in the BKN environment.
+ For this reason, the menu in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Registering-Table"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ is applied.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11582,8 +11366,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/table_access.PNG
 	scale 40
@@ -11594,13 +11376,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Table Permission
 \end_layout
 
@@ -11615,8 +11393,6 @@ Table Permission
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11637,8 +11413,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/halaman-table.PNG
 	scale 40
@@ -11649,13 +11423,9 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 page table
 \end_layout
 
@@ -11670,8 +11440,6 @@ page table
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11691,8 +11459,6 @@ centering
 
 \end_inset
 
-
-\lang english
 
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-sim.PNG
@@ -11704,14 +11470,17 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Register a new SIM
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Register-a-new"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -11725,8 +11494,6 @@ Register a new SIM
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11746,8 +11513,6 @@ centering
 
 \end_inset
 
-
-\lang english
 
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/database_access.PNG
@@ -11759,14 +11524,17 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 database permission table
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:database-permission-table"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -11780,8 +11548,6 @@ database permission table
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11801,8 +11567,6 @@ centering
 
 \end_inset
 
-
-\lang english
 
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/create-table.PNG
@@ -11814,14 +11578,17 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Registering Table
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Registering-Table"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -11835,8 +11602,6 @@ Registering Table
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11856,8 +11621,6 @@ centering
 
 \end_inset
 
-
-\lang english
 
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/upload-file.PNG
@@ -11869,14 +11632,17 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 Upload Schema Definition File
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Upload-Schema-Definition"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -11890,40 +11656,60 @@ Upload Schema Definition File
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 Upload Schema Definition File After the SIM is registered, and the database
  is registered.
  Next is registering Table in the database.
  To register a table that is in a database is used menu as shown in Figure
- 4.2.3 Each data structure is provided both with tables, definitions in the
- form of data, and also XML Schema definition of the table.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Registering-Table"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ Each data structure is provided both with tables, definitions in the form
+ of data, and also XML Schema definition of the table.
  To upload XSD files and other definitions, then Use the menu shown in Figure
- 4.2.4.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Upload-Schema-Definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
-
-\series bold
-\size large
-\lang english
 How to use the Metadata Repository
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 After the SIM, database and table are entered into the MR statement, the
  external party and internal BKN can more easily find out the data available
  in the BKN environment.
- Every people can access this information as shown in Figure 6.12.
+ Every people can access this information as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:See-Data-Definition"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
  On the menu presented data definitions, and other information.
  Data schema information can be downloaded.
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -11944,8 +11730,6 @@ centering
 \end_inset
 
 
-\lang english
-
 \begin_inset Graphics
 	filename C:/Users/rafif/Desktop/tugas4/xsd/baru/download-table.PNG
 	scale 40
@@ -11956,14 +11740,17 @@ centering
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 See Data Definition
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:See-Data-Definition"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
